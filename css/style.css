@@ -2,29 +2,20 @@ body {
       margin: 0px;
       max-width: 100%;
       overflow-x: hidden;
+      font-family: Lao MN;
 }
 
 body a:hover{
-       color: #24B0FF;
+       color: #106880;
 }
 
 body a:click{
        color: black;
 }
 
-@font-face {
-  font-family: "KUNSTLER";
-src: url("css/fonts/KUNSTLER.eot");
-  src: url("css/fonts/KUNSTLER.eot") format("embedded-opentype"), 
-url("css/fonts/KUNSTLER.ttf") format("truetype"), url("css/fonts/gothic.woff") 
-format("woff"), url("css/fonts/KUNSTLER.woff") format("woff"), 
-url("css/fonts/KUNSTLER.svg") format("svg");
-  font-weight: normal;
-  font-style: normal; 
-}
 
 #allTop {
-             background-image: url("../images/heroGlass.png");
+             background-color: #F9F9F9;
              background-size: 1440px;
              background-repeat: no-repeat;
              background-position-x: center;
@@ -106,13 +97,45 @@ a{
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
 
-.herolmg {
+.hero {
           display: flex;
           height: 400px;
           padding: 25px; 
           margin-top: -50px ;  
           justify-content: space-around; 
 }
+
+.heroText {
+    margin-top: 2%;   
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    margin-left: 16%;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    color: black;
+    font-family: Lao MN;
+    font-size: 17px;
+}
+
+
+button:hover {
+    color: #106880;
+    border-color: #106880;
+
+}
+
+
+
+.heroImg{
+                width: 60%;
+                height: 50%;
+                margin-top: 7%;
+                margin-left: 0%;
+            }
 
 .mySkills {
           height: 450px;
@@ -171,8 +194,8 @@ a{
 }
 
 h1 {
+    font-family: Lao MN;
     font-size: 40px;
-    font-family: Lato regular;
     margin-left: 60px;
     margin-top: 50px;
     margin-bottom: 25px;
@@ -188,11 +211,12 @@ h2 {
 }
 
 h3{
-    margin-left: 60px;
-    font-family: inter thin;
+    font-family: Lao MN;
+    font-size: 17px;
     margin-top: 0px;
+    margin-left: 60px;
     margin-bottom: 5px;
-    color: #767576;
+    color: #4C4C4C;
 }
 
 h6 {
@@ -352,7 +376,7 @@ p{
 }
 
 @media only screen and (max-width: 500px) {
-            .herolmg {
+            .hero {
                 display: inline-table;
                 margin-left: -55px;
                 width: 100%;
@@ -361,7 +385,7 @@ p{
             h1{
                font-size: 30px;
             }
-            .herolmg h3{
+            .hero h3{
             font-size: 12px;    
             }
             #allTop h6{
@@ -394,16 +418,11 @@ p{
             .dropdown-content a{
                 font-size: 11px;
             }
-            .hero{
-                width: 100%;
-                margin-top: -20%;
-                margin-left: 7%;
-            }
             #allTop {
                 background-size: 1400px;
                 width: 430px ;
             }
-                        .mySkills h2{
+            .mySkills h2{
                 margin-top: -80px;
             }
             .illus{
@@ -459,20 +478,20 @@ p{
             .copyright p{
                 padding-top: 3%;
             }
-            .herolmg{
+            .hero{
                 margin-top: -30px;
             }
 }
 
 @media (min-width: 500px) and (max-width: 1024px) {
-            .herolmg {
+            .hero {
                 display: inline-table;
                 margin-top: -30px;
             }
             h1{
                font-size: 30px;
             }
-            .herolmg h3{
+            .hero h3{
             font-size: 12px;    
             }
             #allTop h6{
@@ -499,11 +518,16 @@ p{
             .dropdown-content a{
                 font-size: 11px;
             }
-            .hero{
-                width: 90%;
+            .heroImg{
+                width: 10%;
                 margin-top: -20%;
                 margin-left: 7%;
             }
+
+            .heroImg img{
+                width: 20%;
+            }
+
             #allTop {
                 background-size: 1750px;
                 width: 100%;
@@ -579,7 +603,7 @@ p{
 
 @media (min-width: 1179px) and (max-width: 1181px){
             .hero{
-                width: 5bc0%;
+                width: 50%;
             }
             #allTop{
                 background-size: 1750px;
