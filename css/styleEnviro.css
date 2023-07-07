@@ -112,85 +112,36 @@ nav a {
                 height: 50%;
                 margin-top: 7%;
                 margin-left: 0%;
-            }
-
-.titleH {
-        margin-top: -50px;
-        margin-left: -50px;
 }
 
-
-.userResearch {
-               margin-top: 6%;
-}
-
-.synthesis{
-               margin-top: 0%;
-}
-
-.ideation {
+.sec {
            margin-top: 8%;
-}
-
-.prototypes {
-             margin-top: 8%;
-}
-
-.userUsability{
-             margin-top: 8%;
-}
-
-.secProto {
-          display: flex;
-          justify-content: center;
-          margin-top: -2%;
 }
 
 .card {   display: flex;
           width: 300px;
           flex-direction: column;
           padding: 3%;
+          color: #4C4C4C;
+          width: 50%;
+          padding-left: 7%;
 }
+
 
 .card p{
-         margin-left: 0px;
+            color: black;
+            margin-left: 0%;
+            border: 1px solid;
+            padding: 7% 5%;
 }
 
-.cardI {
-        flex-direction: column;
-        display: flex;
-        padding: 3%;
-        width: 30%;
+
+.title {
+            color: #4C4C4C;
+            padding-left: 7%;
 }
 
-.cardI img{
-          margin-right: 15%;
-          margin-left: -80%;
-          z-index: -1;
-}
 
-.cardT {
-        flex-direction: column;
-        display: flex;
-        width: 30%;
-}
-
-.cardT img{
-           margin-left: -41.5%;
-}
-
-.cardP {
-        flex-direction: column;
-        display: flex;
-        width: 70%;
-        padding: 3%;
-        margin-left: 3%;
-        margin-top: -1%;
-}
-
-.card p{ 
-        margin-left: 0px;  
-}
 
 p {
    font-size: 18px;
@@ -201,273 +152,67 @@ p {
    color: #767576;
 }
 
-
-.secInterview {
-             display: flex;
-             margin-top: -65.5%;
-}
-
-.cardInterview {
-                flex-direction: column;
-                display: flex;
-                width: 300px;
-                padding: 3%;
-                width: 35%;
-                margin-left: 2%;
-}
-
-.cardParaInter {
-                flex-direction: column;
-                display: flex;
-                width:45%;
-                padding: 2%;
-                margin-top: 3%;
-}
-
-.secComp {
-             display: flex;
-             justify-content: center;
-             margin-top: 4.5%;
-}
-
-.cardParaComp {
-              flex-direction: column;
-              display: flex;
-              width: 70%;
-              padding: 3%;
-              margin-left: 2%;
-              margin-top: -3%;
-}
-
-.cardComp {
-          flex-direction: column;
-          display: flex;
-          width: 300px;
-          padding: 3%;
-          width: 45%;
-          margin-right: 6.5%;
-          margin-top: -5%;
-}
-
-.secPersona {
-             display: flex;
-             margin-top: 4%;
-}
-
-.cardPersona {
-              flex-direction: column;
-              display: flex;
-              width: 300px;
-               padding: 3%;
-              width: 47%;
-              margin-right: 6%;
-              margin-top: 0;
-}
-
-
-.cardParaPer {
-              flex-direction: column;
-              display: flex;
-              width: 120%;
-              margin-left: 2%;
-              margin-top: -4%;
-}
-
-.cardT2 {
-        flex-direction: column;
-        display: flex;
-        width: 30%;
-        margin-left: -5%;
-}
-
-.cardT2 img{
-        margin-left: 88%;
-}
-
-.secJourney {
-             display: flex;
-             margin-top: 6%;
-             margin-top: -46%;
-}
-
-.secJourney img{
-                z-index: -1;
-                margin-left: -5%;
-}
-
-.cardParaJ {
-              flex-direction: column;
-              display: flex;
-              width: 120%;
-              margin-left: 2%;
-              margin-top: -3%;
-}
-
-.secFeatures {
+.divResearch {
               display: flex;
               justify-content: center;
               margin-top: 4%;
 }
 
-.cardParaF {
-            color: white;
-            background-color: #5C6274;
-            width: 50%;
-            box-shadow: 2px 2px 4px black;
+
+.divUserFlow {
+            justify-content: center;
+            margin-top: 0;         
 }
 
-.cardParaF p{
-            color: white;
-            margin-left: 5%;
-}
-
-.cardParaF h5{
-            margin-left: 5%;
-}
-
-.cardImgF {
-           background-color: #F4F3F3;
-           width: 50%;
-           box-shadow: 2px 2px 4px black;
-}
-
-.cardImgF img{
-           width: 80%;
-}
-
-.secSite {
-          display: flex;
+.cardUserFlow {
           justify-content: center;
-          margin-top: 5%;
-}
-
-.secUserFlow {
-              display: flex;
-              justify-content: center;
-              margin-top: 5%;
-}
-
-.cardImgU {
-           background-color: #F4F3F3;
-           width: 50%;
-           box-shadow: 2px 2px 4px black;
-}
-
-
-.cardImgU img{
-              size: 80%;
-}
-
-.secPrototypes {
-              display: flex;
-              justify-content: center;
-              margin-top: 4%;
-}
-
-.cardParaTypes1 {
-            color: #5C6274;
-            background-color: #F4F3F3;
-            width: 50%;
-            box-shadow: 2px 2px 4px black;
-}
-
-.cardParaTypes1 p{
-            color: #5C6274;
-            margin-left: 5%;
-}
-
-.cardParaTypes1 h5{
-            margin-left: 5%;
-}
-
-.cardImgTypes1 {
-           background-color: #5C6274;
-           width: 50%;
-           box-shadow: 2px 2px 4px black;
-}
-
-.cardImgTypes1 img{
-           width: 100%;
-}
-
-.secPrototypes2 {
-              display: flex;
-              justify-content: center;
-              margin-top: 5%;
-}
-
-.cardParaTypes1 {
-            color: #5C6274;
-            background-color: #F4F3F3;
-            width: 50%;
-            box-shadow: 2px 2px 4px black;
-}
-
-.cardParaTypes1 p{
-            color: #5C6274;
-            margin-left: 5%;
-}
-
-.cardParaTypes1 h5{
-            margin-left: 5%;
-}
-
-.cardImgTypes1 {
-           background-color: #5C6274;
-           width: 50%;
-           box-shadow: 2px 2px 4px black;
-}
-
-.cardImgTypes1 img{
-           width: 100%;
-}
-
-.cardHot {
-         flex-direction: column;
           display: flex;
-          width: 45%;
           padding: 3%;
-          margin-right: 5%;
-          margin-top: -3%;
-
+          margin-left: 0;
 }
 
-.secIt {
-             display: flex;
-             justify-content: center;
-             margin-top: 5%;
+#categoryGrid {
+  margin: 1% 5% 7% 5%;
+  display: grid;
+  grid-template-rows: 600px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+  "enviroW1 enviroW2 enviroW3 enviroW4 enviroW5"
+  ;
 }
 
-.cardParaIt {
-              flex-direction: column;
-              display: flex;
-              width: 70%;
-              padding: 3%;
-              margin-left: 2%;
-              margin-top: -7%;
-              margin-bottom: -2%;
+#enviroW1 {
+  grid-area: enviroW1;
+  background-image: url("../images/enviroW1.png");
+}
+#enviroW2 {
+  grid-area: enviroW2;
+  background-image: url("../images/enviroW2.png");
 }
 
-.cardIt {
-          flex-direction: column;
-          display: flex;
-          width: 300px;
-          padding: 3%;
-          width: 45%;
-          margin-right: 6.5%;
-          margin-top: -5%;
+#enviroW3 {
+  grid-area: enviroW3;
+  background-image: url("../images/enviroW3.png");
 }
 
+#enviroW4 {
+  grid-area: enviroW4;
+  background-image: url("../images/enviroW4.png");
+}
 
-.futureOpp {
-             justify-content: center;
-             margin-top: 4%;
- }
+#enviroW5 {
+  grid-area: enviroW5;
+  background-image: url("../images/enviroW5.png");
+}
 
-.para {
-       margin-top: 0px;
-       text-align: center;
-       margin-left: 0px;
+.categoryGridArea {
+  background-position: center;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
 }
 
 h1 {
@@ -498,10 +243,6 @@ h5 {
     font-family: Lato;
 }
 
-.futureopp {
-           margin-bottom: 9%;
-}
-
 #contact {
         background: rgb(239, 239, 239);
         background: linear-gradient(
@@ -518,7 +259,7 @@ h5 {
         justify-content: center;
         height: 160px;
         width: 100%;
-        position: relative; top: -7px;
+        position: relative; top: -26px;
 }
 
 #contact h5 {
@@ -667,10 +408,10 @@ h5 {
             .timeLine{
                 display: none;
             }
-            .secFeatures{
+            .divResearch{
                 display: unset;
             }
-            .cardParaF{
+            .card{
                 width: 93%;
             }
             .cardImgF{

@@ -113,224 +113,34 @@ a{
                 margin-left: 0%;
 }
 
-.titleH{
-        margin-left: -55;
-        margin-top: 5px;
-}
-
-
-.userResearch {
-               margin-top: 4.5%;
-}
-
-.synthesis {
-               margin-top: 4%;
-}
-
-.ideation {
-           margin-top: 2%;
-}
-
-.prototypes {
-             margin-top: 2%;
-}
-
-.userUsability{
-             margin-top: 2%;
-}
-
- .futureOpp{
-            margin-top: 3%;
- }
-
-
 .sec {
-      display: flex;
-      justify-content: center;
+           margin-top: 8%;
 }
 
 .card {   display: flex;
           width: 300px;
           flex-direction: column;
-          text-align: center;
           padding: 3%;
+          color: #4C4C4C;
+          width: 50%;
+          padding-left: 7%;
 }
+
 
 .card p{
-        text-align: center;
-        margin-left: 0px;
-}
-
-.secSpecific {
-       display: flex;
-       justify-content: center;
-}
-
-.paraSpecific {
-               text-align: left;
-               margin: 40px;
-}
-
-.secInter {
-             display: flex;
-             justify-content: center;
-             margin-top: 7%;
+            color: black;
+            margin-left: 0%;
+            border: 1px solid;
+            padding: 7% 5%;
 }
 
 
-.secPersona {
-             display: flex;
-             justify-content: center;
-             margin-top: 0;
+.title {
+            color: #4C4C4C;
+            padding-left: 7%;
 }
 
-.secCom {
-             display: flex;
-             justify-content: center;
-             margin-top: 1.5%;
-}
 
-.cardParaInter {
-              flex-direction: column;
-              display: flex;
-              width: 50%;
-              padding: 3%;
-              margin-left: 0;
-              margin-top: -7%;
-}
-
-.cardParaRight {
-              flex-direction: column;
-              display: flex;
-              width: 50%;
-              padding: 3%;
-              margin-right: 7%;
-              margin-top: -3%;
-}
-
-.cardInter {
-          flex-direction: column;
-          display: flex;
-          width: 30%;
-          padding: 3%;
-          margin-right: 6.5%;
-          margin-top: -3%;
-}
-
-.cardPersona {
-          flex-direction: column;
-          display: flex;
-          width: 50%;
-          padding: 3%;
-          margin-left: 4%;
-          margin-top: 0;
-}
-
-.cardComp {
-          flex-direction: column;
-          display: flex;
-          width: 30%;
-          padding: 3%;
-          margin-right: 7%;
-          margin-top: 0;
-}
-
-.cardParaCom{
-              flex-direction: column;
-              display: flex;
-              width: 50%;
-              padding: 3%;
-              margin-right: 5%;
-              margin-top: -4%;
-
-}
-
-.secStory {
-            display: flex;
-            justify-content: center;
-            margin-top: 3%;
-}
-
-.cardStory {
-          flex-direction: column;
-          display: flex;
-          width: 50%;
-          padding: 3%;
-          margin-left: 5%;
-          margin-top: 0;
-}
-
-.secJourney {
-             display: flex;
-             justify-content: center;
-             margin-top: 3%;
-
-}
-
-.cardJourney {
-          flex-direction: column;
-          display: flex;
-          width: 50%;
-          padding: 3%;
-          margin-right: 7%;
-          margin-top: -3%;
-}
-
-.cardParaJourney{
-              flex-direction: column;
-              display: flex;
-              width: 50%;
-              padding: 3%;
-              margin-left: 0;
-              margin-top: -5%;
-}
-
-.secHypo {
-          display: flex;
-          justify-content: center;
-          margin-top: 0;
-}
-
-.cardParaHypo {
-              flex-direction: column;
-              display: flex;
-              width: 50%;
-              padding: 3%;
-              margin-right: 7%;
-              margin-top: -3%;
-}
-
-.secBook {
-            justify-content: center;
-            margin-top: 0;         
-}
-
-.cardBook {
-          justify-content: center;
-          display: flex;
-          padding: 3%;
-          margin-left: 0;
-}
-
-.cardParaId {
-              text-align: center;
-              padding: 3%;
-              margin-top: -7%;
-              margin-left: -7%;
-}
-
-.secProto{
-           display: flex;
-           justify-content: center;
-           margin-top: -2%;
-}
-
-.cardProto {
-            display: flex;
-           width: 40%;
-           flex-direction: column;
-           padding: 3%;
-}
 
 p {
    font-size: 18px;
@@ -341,9 +151,67 @@ p {
    color: #767576;
 }
 
-.para {
-       margin-top: 20px;
-       margin-left: 0px;
+.divResearch {
+              display: flex;
+              justify-content: center;
+              margin-top: 4%;
+}
+
+
+.divUserFlow {
+            justify-content: center;
+            margin-top: 0;         
+}
+
+.cardUserFlow {
+          justify-content: center;
+          display: flex;
+          padding: 3%;
+          margin-left: 0;
+}
+
+#categoryGrid {
+  margin: 1% 5% 7% 5%;
+  display: grid;
+  grid-template-rows: 600px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+  "travelzW1 travelzW2 travelzW3 travelzW4 travelzW5"
+  ;
+}
+
+#travelzW1 {
+  grid-area: travelzW1;
+  background-image: url("../images/travelzW1.png");
+}
+#travelzW2 {
+  grid-area: travelzW2;
+  background-image: url("../images/travelzW2.png");
+}
+
+#travelzW3 {
+  grid-area: travelzW3;
+  background-image: url("../images/travelzW3.png");
+}
+
+#travelzW4 {
+  grid-area: travelzW4;
+  background-image: url("../images/travelzW4.png");
+}
+
+#travelzW5 {
+  grid-area: travelzW5;
+  background-image: url("../images/travelzW5.png");
+}
+
+.categoryGridArea {
+  background-position: center;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
 }
 
 h1 {
@@ -369,22 +237,9 @@ h3{
     margin-left: 60px;
 }
 
-h4 {
-    text-align: center;
-    font-size: 25px;
-    font-family: Lato;
-    margin-left: 60px;
-}
-
 h5 {
-    text-align: left;
     font-size: 25px;
     font-family: Lato;
-    margin-left: 60px;
-}
-
-.futureopp {
-           margin-bottom: 9%;
 }
 
 #contact {
@@ -403,7 +258,7 @@ h5 {
         justify-content: center;
         height: 160px;
         width: 100%;
-        position: relative; top: -7px;
+        position: relative; top: -26px;
 }
 
 #contact h5 {

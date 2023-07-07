@@ -114,115 +114,31 @@ a{
                 margin-left: 0%;
 }
 
-.titleH{
-        margin-left: -55;
-        margin-top: 5px;
-}
-
-.userResearch {
-               margin-top: 4.5%;
-}
-
-.PersonaProto {
-               width: 80%;
-               justify-content: center;
-               margin-left: 7.5%;
-               margin-top: 3.5%;
-}
-
-.paraPP {
-          justify-content: center;
-          width: 80%;
-}
-
-.secInter {
-             display: flex;
-             justify-content: center;
-             margin-top: 7%;
-}
-
-.cardParaInter {
-              flex-direction: column;
-              display: flex;
-              width: 50%;
-              padding: 3%;
-              margin-left: 2%;
-              margin-top: -7%;
-}
-
-.interTitle {
-             margin-left: -37%;
-             margin-bottom: 7%;
-             margin-top: 5%;
-}
-
-.cardinter {
-          flex-direction: column;
-          display: flex;
-          width: 50%;
-          padding: 3%;
-          margin-right: 6.5%;
-          margin-top: -4%;
-}
-
-.synthesis {
-            margin-top: 4%;
-}
-
-.sec {
-      display: flex;
-      justify-content: center;
+sec {
+           margin-top: 8%;
 }
 
 .card {   display: flex;
           width: 300px;
           flex-direction: column;
-          text-align: center;
           padding: 3%;
+          color: #4C4C4C;
+          width: 50%;
+          padding-left: 7%;
 }
 
-.secSpecific {
-       justify-content: center;
+
+.card p{
+            color: black;
+            margin-left: 0%;
+            border: 1px solid;
+            padding: 7% 5%;
 }
 
-.secSpecificP {
-       justify-content: center;
-       display: flex;
-}
 
-.paraSpecific {
-               text-align: center;
-               margin-top: 1%;
-}
-
-.ideation {
-           margin-top: 6%;
-}
-
-.prototypes {
-             margin-top: 6%;
-}
-
-.userUsability {
-                margin-top: 6%;
-}
-
-.futureOpp {
-                margin-top: 4%;
-}
-
-.protoLab {
-           margin-left: 2%;
-}
-
-.protoMob {
-           margin-right: 2%;
-}
-
-.SynImg {
-         width: 66%;
-         margin-left: 17%;
-         margin-top: 3%;
+.title {
+            color: #4C4C4C;
+            padding-left: 7%;
 }
 
 
@@ -236,33 +152,67 @@ p {
    color: #767576;
 }
 
-.card p{
-        text-align: center;
-        margin-left: 0px;
-}
-
-
-.para {
-       margin-top: 3%;
-       text-align: center;
-       margin-left: 0px;
-}
-
-.cardLMH{
-         display: flex;
-         justify-content: center;
-         margin-left: 10%; 
-         width: 50%;
-         height: 50%;
-}
-
-.cardParaLMH {
-              flex-direction: column;
+.divResearch {
               display: flex;
-              padding: 3%;
-              width: 50%;
-              margin-right: 10%;
-              margin-top: -3%;
+              justify-content: center;
+              margin-top: 4%;
+}
+
+
+.divUserFlow {
+            justify-content: center;
+            margin-top: 0;         
+}
+
+.cardUserFlow {
+          justify-content: center;
+          display: flex;
+          padding: 3%;
+          margin-left: 0;
+}
+
+#categoryGrid {
+  margin: 1% 5% 7% 5%;
+  display: grid;
+  grid-template-rows: 600px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+  "gardengateW1 gardengateW2 gardengateW3 gardengateW4 gardengateW5"
+  ;
+}
+
+#gardengateW1 {
+  grid-area: gardengateW1;
+  background-image: url("../images/enviroW1.png");
+}
+#gardengateW2 {
+  grid-area: gardengateW2;
+  background-image: url("../images/enviroW2.png");
+}
+
+#gardengateW3 {
+  grid-area: gardengateW3;
+  background-image: url("../images/enviroW3.png");
+}
+
+#gardengateW4 {
+  grid-area: gardengateW4;
+  background-image: url("../images/enviroW4.png");
+}
+
+#gardengateW5 {
+  grid-area: gardengateW5;
+  background-image: url("../images/enviroW5.png");
+}
+
+.categoryGridArea {
+  background-position: center;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
 }
 
 h1 {
@@ -289,30 +239,8 @@ h3{
 }
 
 h5 {
-    text-align: center;
     font-size: 25px;
     font-family: Lato;
-    margin-bottom: 1%;
-    margin-top: 3%;
-}
-
-.Projects h3 {
-             color: #0071a1;
-             font-size: 40px;
-             font-family: lato;
-             text-align: center;
-             margin: 100px 0px 25px 0px;
-}
-
-.Projects h4 {
-             color: black;
-             font-size: 22px regular;
-             font-family: inter;
-             text-align: center;
-}
-
-.futureopp {
-           margin-bottom: 9%;
 }
 
 #contact {
@@ -331,7 +259,7 @@ h5 {
         justify-content: center;
         height: 160px;
         width: 100%;
-        position: relative; top: -7px;
+        position: relative; top: -26px;
 }
 
 #contact h5 {
