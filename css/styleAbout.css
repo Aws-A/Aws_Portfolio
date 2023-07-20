@@ -2,10 +2,12 @@ body {
       margin: 0px;
       max-width: 100%;
       overflow-x: hidden;
+      font-family: Lao MN;
+      font-weight: 400 !important;
 }
 
 body a:hover{
-       color: #106880;
+       color: #00AF00;
 }
 
 body a:click{
@@ -35,14 +37,9 @@ body a:click{
     margin-top: 50px;
 }
 
-.titleH {
-        margin-left: -55;
-        margin-top: 5px;
-}
-
 nav {
      display: flex;
-     color: #767576;
+     color: #106880;
      margin-top: 33px;
      margin-right: 15px;
      white-space: nowrap;
@@ -51,8 +48,7 @@ nav {
 nav a {
     padding: 50px;
     font-size: 20px;
-    font-family: Inter;
-    color: #767576;
+    color: #106880;
 }
 
 a{
@@ -62,8 +58,7 @@ a{
 .dropdown {
     padding: 50px;
     font-size: 20px;
-    font-family: Inter;
-    color: #767576;
+    color: #106880;
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -82,7 +77,7 @@ a{
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: black;
+  color: #106880;
   padding: 5px 7px;
   text-decoration: none;
   display: block;
@@ -103,7 +98,9 @@ a{
           display: flex;
           height: 400px;
           padding: 25px;
-          justify-content: space-around; 
+          justify-content: space-around;
+          margin-top: 3%;
+          margin-left: 2%;
 }
 
 .heroText {
@@ -117,71 +114,226 @@ a{
                 margin-left: 0%;
 }
 
-.herolmg1 {
-          display: flex;
-          height: 400px;
-          padding: 25px;   
-          justify-content: space-around;
-          margin-left: -70px; 
-          margin-top: 3%;     
-}
-
-.herolmg2 {
-          display: flex;
-          height: 250px;
-          padding: 25px;   
-          justify-content: space-around;
-          margin-top: 2%;    
-}
-
-.herolmg3 {
-          display: flex;
-          height: 400px;
-          padding: 25px;   
-          justify-content: space-around;      
-}
-
-
 #categoryGrid {
-  margin: 1% 5%;
+  margin: 10% 5%;
   display: grid;
-  grid-template-rows: 450px 450px;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 250px 250px 250px 250px 250px;
+  grid-template-columns: 0.5fr 0.5fr 5fr 1fr;
   grid-template-areas:
-  "Illustration Infographics Logos"
-  "Estates Estates Logos"
-  ;
+  "enY line enTx enIc"
+  "busY line busTx busIc"
+  "uxY line uxTx uxIc"
+  "wdY line wdTx wdIc"
+  "pmY line pmTx pmIc";
 }
 
-#Illustration {
-  grid-area: Illustration;
-  background-image: url("../images/Garden.svg");
-
-}
-#Infographics {
-  grid-area: Infographics;
-  background-image: url("../images/Infographics.png");
+#categoryGrid h3 {
+    color: #106880;
 }
 
-#Logos {
-  grid-area: Logos;
-  background-image: url("../images/Logos.png");
+#categoryGrid p {
+    color: #Black;
 }
 
-#Estates {
-  grid-area: Estates;
-  background-image: url("../images/Estates.png");
+#enY {
+  grid-area: enY;
+  background-image: url("../images/");
 }
+#line {
+  grid-area: line;
+  width: 44%;
+}
+
+#enTx{
+  grid-area: enTx;
+  background-image: url("../images/");
+}
+
+#enIc {
+  grid-area: enIc;
+  background-image: url("../images/enIc.png");
+}
+
+#busY {
+  grid-area: busY;
+}
+
+#busTx {
+  grid-area: busTx;
+}
+
+#busIc {
+  grid-area: busIc;
+  background-image: url("../images/busIc.png");
+}
+#uxY {
+  grid-area: uxY;
+}
+
+#uxTx{
+  grid-area: uxTx;
+}
+
+#uxIc {
+  grid-area: uxIc;
+  background-image: url("../images/uxIc.svg");
+}
+
+#wdY {
+  grid-area: wdY;
+}
+
+#wdTx {
+  grid-area: wdTx;
+}
+
+#wdIc {
+  grid-area: wdIc;
+  background-image: url("../images/wdIc.svg");
+}
+#pmY {
+  grid-area: pmY;
+}
+
+#pmTx {
+  grid-area: pmTx;
+}
+
+#pmIc {
+  grid-area: pmIc;
+  background-image: url("../images/pmIc.svg");
+}
+
+.vertical-line {
+  border: none;
+  border-left: 5px solid #106880;
+  height: 1200px; /* Adjust the height as needed */
+  transform: rotate(0deg);
+  margin-left: 100%;
+}
+
 
 .categoryGridArea {
+  display: flex;
   background-position: center;
-  background-size: 100%;
+  background-size: 80%;
   background-repeat: no-repeat;
   margin: 5px;
   cursor: pointer;
   display: grid;
-  align-content: end;
+  align-content: flex-start;
 }
+
+
+#categoryGridSkills {
+  margin: 10% 5%;
+  display: grid;
+  grid-template-rows: 50px 60px 100px 250px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+  "reTi wrTi idTi prTi uiTi"
+  "lineSk lineSk lineSk lineSk lineSk"
+  "reDes wrDes idDes prDes uiDes"
+  "reIl wrIl idIl prIl uiIl";
+}
+
+#categoryGridSkills h3 {
+    color: #106880;
+    white-space: nowrap;
+}
+
+#categoryGridSkills p {
+    color: #Black;
+    white-space: nowrap;
+}
+
+#reTi {
+  grid-area: reTi;
+  margin-left: 27%;
+}
+#wrTi {
+  grid-area: wrTi;
+  margin-left: 18%;
+}
+
+#idTi{
+  grid-area: idTi;
+  margin-left: 2%;
+}
+
+#prTi {
+  grid-area: prTi;
+  margin-left: -6%;
+}
+
+#uiTi {
+  grid-area: uiTi;
+  margin-left: -2%;
+}
+
+#lineSk {
+  grid-area: lineSk;
+  background-image: url("../images/lineSk.svg");
+}
+
+#reDes {
+  grid-area: reDes;
+  margin-left: 30%;
+}
+#wrDes {
+  grid-area: wrDes;
+  margin-left: 17%;
+}
+
+#idDes {
+  grid-area: idDes;
+  margin-left: 0%;
+}
+
+#prDes {
+  grid-area: prDes;
+  margin-left: -9%;
+}
+
+#uiDes {
+  grid-area: uiDes;
+  margin-left: -3%;
+}
+
+#reIl {
+  grid-area: reIl;
+  background-image: url("../images/reIl.svg");
+  width: 80%;
+  margin-left: 15%;
+  margin-top: 3%;
+}
+
+#wrIl {
+  grid-area: wrIl;
+  background-image: url("../images/wrIl.svg");
+  width: 80%;
+}
+#idIl {
+  grid-area: idIl;
+  background-image: url("../images/idIl.svg");
+  width: 80%;
+  margin-top: 5%;
+}
+
+#prIl {
+  grid-area: prIl;
+  background-image: url("../images/prIl.svg");
+  width: 80%;
+  margin-top: 10%;
+}
+
+#uiIl {
+  grid-area: uiIl;
+  background-image: url("../images/uiIl.svg");
+  width: 80%;
+   margin-top: 10%;
+}
+
 
 h1 {
     font-family: Lao MN;
@@ -195,120 +347,32 @@ h3{
     font-family: Lao MN;
     font-weight: 300 !important;
     margin-left: 60px;
+    font-weight: 300;
 }
 
 h4 {
     text-align: center;
     font-size: 25px;
-    font-family: Lato;
+    font-weight: 300;
+}
+
+h5 {
+    font-size: 25px;
+    font-weight: 300;
 }
 
 p {
    font-size: 18px;
-   font-family: inter;
    margin-top: 0px;
    justify-content: top;
    margin-left: 60px;
-   color: #767576;
+   color: #Black;
 }
 
-.titleH{
-        margin-left: -10px;
-        margin-top: 5px;
-}
 
 .title {
         background-color: #d8edfb;
         height: 60px;
-}
-
-.herolmg h3 {
-             color: Black;
-             font-size: 40px;
-             font-family: lato;
-             text-align: center;
-             margin: 50px 0px 70px -300px;
-}
-
-.herolmg1 h3 {
-             color: #24B0FF;
-             font-size: 40px;
-             font-family: lato;
-             text-align: center;
-             margin: 0px 0px 70px -330px;
-}
-
-
-
-.herolmg2 h3 {
-             color: #24B0FF;
-             font-size: 40px;
-             font-family: lato;
-             text-align: center;
-             margin: 0px 0px 70px 100px;
-}
-
-.herolmg3 h3 {
-             color: #24B0FF;
-             font-size: 40px;
-             font-family: lato;
-             text-align: center;
-             margin: 20px 0px 70px -10px;
-}
-
-.projects{
-          margin-top: 7%;
-}
-
-.projects h3{
-             color: #24B0FF;
-             font-size: 40px;
-             font-family: lato;
-             text-align: center;         
-}
-
-.heading {
-  background-color: rgba(0,0,0,0.7);
-  padding: 15px;
-  height: 25px;
-  color: white;
-  font-size: 18px;
-  border-bottom: 5px solid #24B0FF;
-  text-align: center;
-  font-family: inter;
-}
-
-.paraH1 {
-   font-size: 18px;
-   font-family: inter;
-   justify-content: top;
-   margin-left: 25%;
-}
-
-
-.paraH {
-   font-size: 18px;
-   font-family: inter;
-   justify-content: top;
-   margin-left: 100px;
-}
-
-.para {
-       text-align: center;
-}
-
-.imgD{
-      margin-right: 5%;
-}
-.AR {
-     width: 30%;
-     height: 70%;
-     margin-right: 5%;
-     margin-top: 2%;
-}
-
-.Projects {
-           margin-bottom: 9%;
 }
 
 #contact {
@@ -327,12 +391,11 @@ p {
         justify-content: center;
         height: 160px;
         width: 100%;
-        position: relative; top: -7px;
+        position: relative; top: -26px;
 }
 
 #contact h5 {
              font-size: 20px;
-             font-family: inter;
 }
 
 .EP {
@@ -359,7 +422,7 @@ p {
 .Soc {
       display: flex;
       width: 35%;
-      margin: 0% 0% 1.5% 0%;
+      margin-right: 3%;
 }
 
 .ii {
@@ -383,7 +446,6 @@ p {
              padding-top: 1%;
              color: #EFEFEF;
              font-size: 15px;
-             font-family: inter;
              margin-left: 0px;
 }
 @media only screen and (max-width: 500px) {
@@ -401,9 +463,6 @@ p {
             #allTop h6{
             margin-left: 300px;
             margin-top: 2%;    
-            }
-            .buttonBg{
-                width: 55%;
             }
             .heroPar {
                 width: 520px;
@@ -495,6 +554,62 @@ p {
             }
 }
 
+@media only screen and (max-width: 500px) {
+            h1{
+               font-size: 30px;
+            }
+            #allTop {
+                background-size: 1500px;
+                width: 430px ;
+            }
+            nav{
+                margin-top: 3%;
+                margin-left: 0%;
+                white-space: nowrap;
+            }
+            nav a{
+                padding-left: 0px;
+                font-size: 12px;
+                padding: 50px 7px 7px 0px;
+            }
+            .dropdown{
+                font-size: 12px;
+                padding: 50px 7px 7px 0px;  
+            }
+            .dropdown-content{
+                min-width: 100px;
+            }
+            .dropdown-content a{
+                font-size: 11px;
+            }
+            .hero{
+                width: 70%;
+                height: 50%;
+                margin-left: 15%;
+            }
+            #contact {
+                width: 430px;
+                display: inline-table;
+                position: relative; top: -18px;
+            }
+            .copyright{
+                width: 430px;
+            }
+            .Soc {
+                  margin-left: 17%;
+            }
+            .Ep {
+                  margin-left: 12%;
+                  margin-top: -1%;
+            }
+            .copyright p{
+                padding-top: 3%;
+            }
+            nav{
+                white-space: nowrap;
+            }
+}
+
 @media (min-width: 500px) and (max-width: 1025px){
             #allTop{
                 width: 1100px;
@@ -505,4 +620,456 @@ p {
             #allTop{
                 background-size: 1500px;
             }
+}
+
+@media (min-width: 800px) and (max-width: 1025px) {
+
+    #allTop {
+        width: 100%;
+    }
+    .hero {
+        margin-left: 5%;
+    }
+    .heroText {
+        width: 45%;
+    }
+
+    .heroText h3 {
+        margin-left: 0%;
+    }
+
+    #categoryGrid {
+        margin-top: -7%;
+    }
+
+    #categoryGridSkills {
+        margin-left: 0%;
+    }
+
+
+    #reTi {
+        margin-left: -2%;
+    }
+
+     #wrTi {
+        margin-left: -2%;
+    }
+
+     #idTi {
+        margin-left: -2%;
+    }
+
+     #prTi {
+        margin-left: -2%;
+    }
+
+     #uiTi {
+        margin-left: -10%;
+    }  
+
+    h3{
+        font-size: 17px;
+    }
+
+    p{
+        font-size: 12px;
+    }
+
+  #categoryGrid {
+    margin-top: 5%;
+  }
+
+  #categoryGridSkills {
+  margin: 10% 5%;
+  display: grid;
+  grid-template-rows: 50px 60px 100px 250px;
+  grid-template-columns: 0.75fr 0.75fr 0.75fr 0.75fr 0.75fr;
+  grid-template-areas:
+  "reTi wrTi idTi prTi uiTi"
+  "lineSk lineSk lineSk lineSk lineSk"
+  "reDes wrDes idDes prDes uiDes"
+  "reIl wrIl idIl prIl uiIl";
+}
+
+
+    #contact {
+        margin-bottom: -3%;
+    }
+
+}
+
+@media (min-width: 800px) and (max-width: 920px) {
+
+ #categoryGridSkills {
+  margin-left: -1%;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+ }
+
+}
+
+
+@media (min-width: 800px) and (max-width: 860px) {
+
+
+nav {
+    font-size: 22px;
+    margin-left: -1%;
+}
+
+nav a {
+    padding-left: 30px;
+}
+
+ #categoryGridSkills {
+  margin-left: -9%;
+  grid-template-columns: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr;
+ }
+
+ #reTi {
+    margin-left: 20%;
+ }
+
+ #reIl {
+    margin-left: 40%;
+ }
+
+ #uiDes {
+    margin-left: -15%;
+ }
+
+}
+
+@media (min-width: 840px) and (max-width: 852px) {
+    #categoryGridSkills {
+        margin-left: -6%;
+    }
+   .Ep {
+            margin-left: 10%;
+            margin-top: 4%;
+    }
+    .Soc {
+            margin-top: 3%;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 799px) { 
+    body {
+        text-align: center;
+    }
+    .hero  {
+        display: inline-table;
+        margin-left: -20%;
+    }
+
+    .heroText {
+        font-size: 12px;  
+    }
+
+    .aboutHero {
+                width: 90%;
+                height: 20%;
+                margin-left: 17%;
+    }
+
+  .vertical-line {
+    display: none;
+  }
+
+  #categoryGrid {
+  margin: 10% 5%;
+  width: 140%;
+  display: grid;
+  grid-template-rows: 50px 250px 125px 50px 250px 125px 50px 250px 125px 50px 250px 125px 50px 250px 125px;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+  "enY"
+  "enTx"
+  "enIc"
+  "busY"
+  "busTx"
+  "busIc"
+  "uxY"
+  "uxTx"
+  "uxIc"
+  "wdY"
+  "wdTx"
+  "wdIc"
+  "pmY"
+  "pmTx"
+  "pmIc";
+  }
+
+  .gridIc {
+    width: 30%;
+    margin-left: 35%;
+  }
+
+   #categoryGrid h3{
+    margin-left: 0%;
+  }
+
+  #categoryGrid p{
+    font-size: 12px;
+    width: 70%;
+  }
+
+  #categoryGridArea {
+    width: 70%;
+  }
+
+
+
+  #categoryGridSkills {
+  justify-content: center; /* Aligns the grid horizontally in the center */
+  align-content: center;
+  margin: 10% 25% 12% 50%;
+  display: grid;
+  grid-template-rows: 70px 100px 180px 70px 100px 180px 70px 100px 180px 70px 100px 180px 70px 100px 180px;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+  "reTi"
+  "reDes"
+  "reIl"
+  "wrTi"
+  "wrDes"
+  "wrIl"
+  "idTi"
+  "idDes"
+  "idIl"
+  "prTi"
+  "prDes"
+  "prIl"
+  "uiTi"
+  "uiDes"
+  "uiIl";
+   }
+
+#categoryGridSkills p{
+    margin-left: 0px;
+}
+
+#reTi h3{
+    margin-left: 10%;
+}
+
+#reIl {
+    margin-left: 33% ;
+}
+
+.gridIl {
+    margin-left: 33%;
+}
+
+#idTi {
+    margin-left: 5%;
+}
+
+#idDes {
+    margin-left: 25%;
+}
+
+
+#prTi {
+    margin-left: 5%;
+}
+
+#prDes {
+    margin-left: 25%;
+}
+
+
+#uiTi {
+    margin-left: 5%;
+}
+
+#uiDes {
+    margin-left: 25%;
+}
+
+}
+
+
+@media (min-width: 500px) and (max-width: 799px) {
+    body {
+        text-align: center;
+    }
+    #allTop {
+        padding-bottom: 15%;
+    }
+    .heroText{
+        width: 80%;
+        margin-left: 15%;
+        font-size: 22px ;
+    }
+    .aboutHero {
+        width: 65%;
+        height: 25%;
+    }
+
+    #categoryGrid h3 {
+        font-size:  30px;
+    }
+
+     #categoryGrid p {
+        font-size:  19px;
+    }
+
+    #categoryGrid {
+        font-size:  19px;
+        grid-template-rows: 100px 450px 200px 100px 450px 200px 100px 450px 200px 100px 450px 200px 100px 450px 200px;
+    }
+    .categoryGridArea {
+            width: 70%;
+    }
+    .gridIc {
+        width: 25%;
+        margin-left: 22%;
+    } 
+
+    #categoryGridSkills {
+        margin-left: 88%;
+    }
+
+    #categoryGridSkills h3 {
+        font-size:  30px;
+    }
+
+     #categoryGridSkills p {
+        font-size:  19px;
+    }
+
+    #contact {
+        width: 1100px;
+        margin-bottom: -4%;
+    }
+    .copyright {
+        width: 1100px;
+    }
+}
+
+@media (min-width: 649px) and (max-width: 660px) { 
+
+      #categoryGrid {
+        width: 70%;
+        text-align: center;
+        margin-left: 60%;
+        grid-template-rows: 100px 600px 160px 100px 525px 160px 100px 650px 160px 100px 600px 160px 100px 600px 160px;
+    }
+    #categoryGridSkills { 
+        margin-left: 80%;
+    }
+
+}
+
+@media (min-width: 665px) and (max-width: 670px) { 
+
+      #categoryGrid {
+            width: 100%;
+            margin-left: 50%;
+            grid-template-rows: 100px 480px 160px 100px 450px 160px 100px 525px 160px 100px 450px 160px 100px 410px 160px;
+    }
+
+    #categoryGridSkills {
+            margin-left: 80%;
+    }
+
+}
+
+@media (min-width: 719px) and (max-width: 721px) { 
+     #categoryGrid {
+        margin-left: 33%;
+        width: 120%;
+     }
+     #categoryGridSkills {
+        margin-left: 66%;
+     }
+}
+
+@media (min-width: 740px) and (max-width: 770px) {
+
+    #categoryGrid {
+        text-align: center;
+        width: 100%;
+        margin-left: 40%;
+    }
+    #categoryGridSkills {
+        margin-left: 66%;
+    }
+}
+
+@media (min-width: 1179px) and (max-width: 1181px) {
+
+ #categoryGridSkills {
+    margin-left: -1%;
+ }
+
+}
+
+@media (min-width: 359px) and (max-width: 440px) {
+        #categoryGrid {
+            width: 100%;
+        }
+        #categoryGridSkills {
+            margin-left: 15%;
+        }
+}
+
+@media (min-width: 400px) and (max-width: 440px) {
+        .travelzLg {
+            margin-left: 30%;
+            width: 70%;
+        }
+        .heroText {
+            margin-left: 17%;
+        }
+        .travelzHero {
+            width: 100%;
+            height: 20%;
+            margin-top: 15%;
+        }
+}
+
+@media (min-width: 539px) and (max-width: 541px) {
+    #categoryGrid {
+        margin-right: -40%;
+        margin-left: 50%;
+     }
+}
+
+@media (min-width: 200px) and (max-width: 500px) {
+    #contact {
+        padding-top: 5%;
+    }
+}
+
+@media (min-width: 279px) and (max-width: 281px) { 
+        .sec {
+            margin-left: 30%;
+        }
+        .divResearch {
+            margin-left: -5%;
+        }
+        .divResearch h5 {
+            white-space: nowrap;
+        }
+        .card {
+            width: 240px;
+        }
+        .card p{
+            width: 290px;
+            margin-left: -20px;
+        }
+        .title {
+            margin-left: 27%;
+        }
+        .divUserFlow img {
+            width: 200%;
+            margin-right: -27%;
+        }
+        #travelzTo {
+            margin-right: -20%;
+        }
+        #categoryGrid {
+            grid-template-rows: 150px 150x 150px 150px 150px;
+        }
 }

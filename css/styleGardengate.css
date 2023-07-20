@@ -2,16 +2,19 @@ body {
       margin: 0px;
       max-width: 100%;
       overflow-x: hidden;
+      font-family: Lao MN;
+      font-weight: 400 !important;
 }
-
 
 body a:hover{
-       color: #106880;
+       color: #00AF00;
 }
+
 
 body a:click{
        color: black;
 }
+
 
 #allTop {
             background-color: #F9F9F9;
@@ -20,6 +23,7 @@ body a:click{
             background-position-x: center;
             margin-top: -50px;
 }
+
 
 .logo {
     width: 23%;
@@ -32,13 +36,11 @@ body a:click{
 .navigation {
              display: flex;
              justify-content: space-between;
-             height: 100px;
-
 }
 
 nav {
      display: flex;
-     color: #767576;
+     color: #106880;
      margin-top: 33px;
      margin-right: 15px;
      white-space: nowrap;
@@ -47,8 +49,7 @@ nav {
 nav a {
     padding: 50px;
     font-size: 20px;
-    font-family: Inter;
-    color: #767576;
+    color: #106880;
 }
 
 a{
@@ -59,8 +60,7 @@ a{
 .dropdown {
     padding: 50px;
     font-size: 20px;
-    font-family: Inter;
-    color: #767576;
+    color: #106880;
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -79,7 +79,7 @@ a{
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: black;
+  color: #106880;
   padding: 5px 7px;
   text-decoration: none;
   display: block;
@@ -101,10 +101,11 @@ a{
           height: 400px;
           padding: 25px;
           justify-content: space-around; 
+          margin-left: 2%;
 }
 
 .heroText {
-    margin-top: 2%;   
+    margin-top: 3%;   
 }
 
 .gardengateHero{
@@ -114,7 +115,12 @@ a{
                 margin-left: 0%;
 }
 
-sec {
+.gardengateLg {
+    width: 33%;
+    margin-left: 12%;
+}
+
+.sec {
            margin-top: 8%;
 }
 
@@ -145,7 +151,6 @@ sec {
 
 p {
    font-size: 18px;
-   font-family: inter;
    margin-top: 0px;
    justify-content: top;
    margin-left: 60px;
@@ -183,26 +188,26 @@ p {
 
 #gardengateW1 {
   grid-area: gardengateW1;
-  background-image: url("../images/enviroW1.png");
+  background-image: url("../images/gardengateW1.png");
 }
 #gardengateW2 {
   grid-area: gardengateW2;
-  background-image: url("../images/enviroW2.png");
+  background-image: url("../images/gardengateW2.png");
 }
 
 #gardengateW3 {
   grid-area: gardengateW3;
-  background-image: url("../images/enviroW3.png");
+  background-image: url("../images/gardengateW3.png");
 }
 
 #gardengateW4 {
   grid-area: gardengateW4;
-  background-image: url("../images/enviroW4.png");
+  background-image: url("../images/gardengateW4.png");
 }
 
 #gardengateW5 {
   grid-area: gardengateW5;
-  background-image: url("../images/enviroW5.png");
+  background-image: url("../images/gardengateW5.png");
 }
 
 .categoryGridArea {
@@ -227,7 +232,6 @@ h1 {
 h2 {
     font-size: 40px;
     text-align: center;
-    font-family: Lato;
     padding: 5px;
     color: #24B0FF;
 }
@@ -240,7 +244,7 @@ h3{
 
 h5 {
     font-size: 25px;
-    font-family: Lato;
+    font-weight: 300;
 }
 
 #contact {
@@ -264,7 +268,6 @@ h5 {
 
 #contact h5 {
              font-size: 20px;
-             font-family: inter;
 }
 .EP {
      margin: 2.5%;
@@ -290,7 +293,7 @@ h5 {
 .Soc {
       display: flex;
       width: 35%;
-      margin: 0% 0% 1.5% 0%;
+      margin-right: 3%;
 }
 
 .ii {
@@ -314,69 +317,21 @@ h5 {
              padding-top: 0.97%;
              color: #EFEFEF;
              font-size: 15px;
-             font-family: inter;
              margin-left: 0px;
 }
 
 @media only screen and (max-width: 500px) {
-            .herolmg {
-                display: inline-table;
-                margin-left: -55px;
-                width: 100%;
-                margin-top: 7%;
-            }
             h1{
                font-size: 30px;
             }
-            .herolmg h3{
-            font-size: 12px;    
-            }
-            #allTop h6{
-            margin-left: 300px;
-            margin-top: 2%;    
-            }
-            .secProto{
-                display: unset;
-            }
-            .secInterview{
-                display: unset;
-            }
-            .secComp{
-                display: unset;
-            }
-            .secPersona{
-                display: unset;
-            }
-            .secJourney{
-                display: unset;
-            }
-            .card{
-                width: 80%;
-                text-align: center;
-            }
-            .cardI{
-                 width: 50%;
-                 margin-left: 40%;
-            }
-            .cardInterview{
-                margin-left: 5%;
-            }
-            .cardComp{
-                margin-left: 5%;
-            }
-            .cardPersona{
-                margin-left: 5%;
-            }
-            .titleH {
-                margin-top: 0%;
-                margin-left: 1%;
-            }
-            .heroPar {
-                width: 520px;
+            #allTop {
+                background-size: 1500px;
+                width: 430px ;
             }
             nav{
                 margin-top: 3%;
                 margin-left: 0%;
+                white-space: nowrap;
             }
             nav a{
                 padding-left: 0px;
@@ -397,33 +352,6 @@ h5 {
                 width: 70%;
                 height: 50%;
                 margin-left: 15%;
-                margin-top: -7%;
-            }
-            #allTop {
-                background-size: 1450px;
-                width: 430px ;
-            }
-            .para{
-                width: 80%;
-                margin-left: 5%;
-            }
-            .secInter{
-                display: unset;
-            }
-            .cardParaInter{
-                width: 80%;
-            }
-            .cardinter{
-                width: 80%;
-                margin-left: 5%;
-            }
-            .cardLMH{
-                width: 80%;
-                height: 25%;
-            }
-            .cardParaLMH{
-                width: 80%;
-                margin-top: 35;
             }
             #contact {
                 width: 430px;
@@ -443,6 +371,9 @@ h5 {
             .copyright p{
                 padding-top: 3%;
             }
+            nav{
+                white-space: nowrap;
+            }
 }
 
 @media (min-width: 500px) and (max-width: 1025px){
@@ -455,4 +386,389 @@ h5 {
             #allTop{
                 background-size: 1500px;
             }
+}
+
+@media (min-width: 800px) and (max-width: 1025px) {
+
+    #allTop {
+        width: 100%;
+    }
+    .hero {
+        margin-left: 5%;
+    }
+    .gardengateLg {
+        margin-left: 0%;
+    }
+    .heroText {
+        width: 45%;
+    }
+
+    .heroText h3 {
+        margin-left: 0%;
+    }
+
+    .gardengateHero {
+        width: 45%;
+        height: 27%;
+        margin-top: 15%;
+        margin-left: -7%;
+    }
+
+    .divResearch {
+        margin-right: 2%;
+        width: 93%;
+    }
+
+    .card p{    font-size: 14px;
+            width: 350px;
+            height: 100px;
+            padding: 6% 2x 6% 2%;
+        }
+
+
+    .divUserFlow {
+            margin-left: 7%;
+    }
+
+    #categoryGrid {
+        margin-top: -7%;
+    }
+
+    #contact {
+        margin-bottom: -3%;
+    }
+
+}
+
+@media (min-width: 800px) and (max-width: 860px) {
+
+
+nav {
+    font-size: 22px;
+    margin-left: -1%;
+}
+
+nav a {
+    padding-left: 30px;
+}
+
+}
+
+@media (min-width: 800px) and (max-width: 821px) {
+
+    .card p{    font-size: 12px;
+                width: 300px;
+                height: 100px;
+                padding: 6% 1x 6% 1%;
+        }
+        .Ep {
+            margin-left: 10%;
+            margin-top: 4%;
+        }
+        .Soc {
+            margin-top: 3%;
+        }
+}
+
+@media (min-width: 200px) and (max-width: 799px) { 
+    body {
+        text-align: center;
+    }
+    .gardengateLg {
+        margin-left: 22%;
+    }
+    .hero  {
+        display: inline-table;
+        margin-left: -20%;
+    }
+
+    .heroText {
+        font-size: 12px;  
+    }
+
+    .gardengateHero {
+                width: 90%;
+                height: 20%;
+                margin-left: 17%;
+    }
+
+    .card p{    font-size: 12px;
+            width: 250px;
+            height: 100px;
+            padding: 6% 2x 6% 2%;
+            margin-left: -7%;
+    }
+
+    .divResearch {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title {
+        margin-left: -2%;
+    }
+
+    .cardUserFlow {
+        padding: 0px;
+        margin-right: -3%;
+    }
+
+  #categoryGrid {
+  margin: 1% 5% 12% 5%;
+  display: grid;
+  grid-template-rows: 333px 333px 333px 333px 333px;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+  "gardengateW1"
+  "gardengateW2"
+  "gardengateW3"
+  "gardengateW4"
+  "gardengateW5";
+   }
+   .categoryGridArea {
+        width: 50%;
+        margin-left: 27%;
+   }
+}
+
+@media (min-width: 279px) and (max-width: 281px) { 
+        .sec {
+            margin-left: 30%;
+        }
+        .divResearch h5 {
+            white-space: nowrap;
+        }
+        .card {
+            width: 240px;
+        }
+        .card p{
+            width: 290px;
+            margin-left: -20px;
+        }
+        .title {
+            margin-left: 27%;
+        }
+        .divUserFlow img {
+            width: 200%;
+            margin-right: -27%;
+        }
+        #gardengateTo {
+            margin-right: -20%;
+        }
+        #categoryGrid {
+            margin-left: 27%;
+            grid-template-rows: 150px 150x 150px 150px 150px;
+        }
+        .categoryGridArea {
+            width: 80%;
+        }
+}
+
+@media (min-width: 500px) and (max-width: 799px) {
+    body {
+        text-align: center;
+    }
+    #allTop {
+        padding-bottom: 15%;
+    }
+    .gardengateLg {
+        margin-left: 15%;
+    }
+    .heroText{
+        margin-left: 12%;
+        font-size: 22px ;
+    }
+    .gardengateHero {
+        width: 65%;
+        height: 25%;
+    }
+    .sec {
+            margin-left: 40%;
+    }
+    .divResearch {
+            margin-left: 10%;
+    }
+
+    .divUserFlow {
+        margin-right: -100%;
+    }
+
+     .divUserFlow img{
+        width: 138%;
+        margin-left: 5%;
+    }
+    .title {
+            margin-left: 30%;
+            white-space: nowrap;
+    }
+
+    #gardengateTo {
+        margin-left: 15%;
+    }
+
+    .card p{    font-size: 17px;
+                width: 500px;
+                height: 150px;
+                padding: 6% 2x 6% 2%;
+        }
+
+    #categoryGrid {
+            margin-right: -30%;
+            margin-left: 30%;
+            grid-template-rows: 600px 600px 600px 600px 600px;
+    }
+    .categoryGridArea {
+            width: 66%;
+        }
+    #contact {
+        width: 1100px;
+        margin-bottom: -4%;
+    }
+    .copyright {
+        width: 1100px;
+    }
+}
+
+@media (min-width: 649px) and (max-width: 770px) { 
+
+    .divUserFlow {
+        margin-right: -50%;
+    }
+
+      #categoryGrid {
+            margin-right: -12%;
+            margin-left: 37%;
+            grid-template-rows: 650px 650px 650px 650px 650px;
+    }
+
+}
+
+@media (min-width: 1179px) and (max-width: 1181px) {
+
+    .card p {
+        width: 450px;
+    }
+
+    .divUserFlow img{
+        margin-left: 5%;
+    }
+
+}
+
+@media (min-width: 359px) and (max-width: 389px) {
+        .sec {
+            margin-right: -13%;
+        }
+        .cardUserFlow {
+            margin-right: 0%;
+        }
+        .divUserFlow img {
+            width: 80%;
+        }
+        #gardengateTo {
+            margin-left: 4%;
+        }
+        #categoryGrid {
+            margin-left: 13%;
+            margin-right: 0%;
+        }
+}
+
+@media (min-width: 400px) and (max-width: 440px) {
+        .gardengateLg {
+            margin-left: 30%;
+            width: 70%;
+        }
+        .heroText {
+            margin-left: 17%;
+        }
+        .gardengateHero {
+            width: 100%;
+            height: 20%;
+            margin-top: 15%;
+        }
+}
+
+
+@media (min-width: 740px) and (max-width: 770px) {
+    .divUserFlow img {
+            width: 120%;
+            margin-left: -20%;
+        }
+    .sec {
+        margin-left: 33%;
+    }
+    .title {
+        margin-left: 17%;
+    }
+    #gardengateTo {
+        margin-left: 20%;
+    }
+    #categoryGrid {
+            margin-right: -1%;
+            margin-left: 30%;
+            grid-template-rows: 650px 650px 650px 650px 650px;
+    }
+}
+
+@media (min-width: 650px) and (max-width: 660px) { 
+     #categoryGrid {
+        margin-left: 40%;
+     }
+}
+
+@media (min-width: 719px) and (max-width: 721px) { 
+    .card {
+        width: 120%;
+    }
+     #categoryGrid {
+        margin-right: -7%;
+        margin-left: 33%;
+     }
+}
+
+@media (min-width: 539px) and (max-width: 541px) {
+    .sec {
+        margin-left: 50%;
+    }
+    .card {
+        width: 200%;
+    }
+    .title {
+        margin-left: 75%;
+    }
+    #gardengateTo {
+        margin-left: -130%;
+    }
+    #categoryGrid {
+        margin-right: -40%;
+        margin-left: 50%;
+     }
+}
+
+@media (min-width: 200px) and (max-width: 500px) {
+    #contact {
+        padding-top: 5%;
+    }
+
+    .divResearch {
+        margin-left: 15%;
+    }
+    .card {
+            width: 240px;
+        }
+    .card p{
+            width: 290px;
+            margin-left: -20px;
+        }
+
+}
+
+@media (min-width: 1179px) and (max-width: 1185px) {
+    .divResearch {
+        width: 90%;
+    }
+    .divUserFlow img {
+        width: 90%;
+    }
 }

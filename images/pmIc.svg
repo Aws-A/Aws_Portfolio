@@ -1,0 +1,38 @@
+<svg id="Group_153" data-name="Group 153" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="116.096" height="88.24" viewBox="0 0 116.096 88.24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_155" data-name="Rectangle 155" width="116.096" height="88.24" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_154" data-name="Rectangle 154" width="116.096" height="88.24" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect id="Rectangle_153" data-name="Rectangle 153" width="56.394" height="56.394" transform="translate(59.702 31.846)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_152" data-name="Group 152" clip-path="url(#clip-path)">
+    <g id="Group_151" data-name="Group 151">
+      <g id="Group_150" data-name="Group 150" clip-path="url(#clip-path-2)">
+        <path id="Path_429" data-name="Path 429" d="M5,61.951H86.5a5,5,0,0,0,5-5V5a5,5,0,0,0-5-5H5A5,5,0,0,0,0,5V56.951a5,5,0,0,0,5,5" fill="#f2f2f2"/>
+        <path id="Path_430" data-name="Path 430" d="M62.65,37.461H76.955a1.35,1.35,0,0,0,0-2.7H62.65a1.35,1.35,0,1,0,0,2.7" fill="#106880"/>
+        <path id="Path_431" data-name="Path 431" d="M35.59,25.909H54.109a1.35,1.35,0,0,0,0-2.7H35.59a1.35,1.35,0,0,0,0,2.7" fill="#106880"/>
+        <path id="Path_432" data-name="Path 432" d="M9.013,30.976h15.58a1.35,1.35,0,1,0,0-2.7H9.013a1.35,1.35,0,0,0,0,2.7" fill="#106880"/>
+        <path id="Path_433" data-name="Path 433" d="M36.493,40.813h8.739a1.35,1.35,0,1,0,0-2.7H36.493a1.35,1.35,0,0,0,0,2.7" fill="#106880"/>
+        <path id="Path_434" data-name="Path 434" d="M36.493,50.2H55.012a1.35,1.35,0,0,0,0-2.7H36.493a1.35,1.35,0,0,0,0,2.7" fill="#106880"/>
+        <g id="Group_149" data-name="Group 149" opacity="0.5">
+          <g id="Group_148" data-name="Group 148">
+            <g id="Group_147" data-name="Group 147" clip-path="url(#clip-path-3)">
+              <path id="Path_435" data-name="Path 435" d="M59.7,60.043a28.2,28.2,0,1,0,28.2-28.2,28.2,28.2,0,0,0-28.2,28.2" fill="#fff"/>
+            </g>
+          </g>
+        </g>
+        <path id="Path_436" data-name="Path 436" d="M71.4,60.043a16.5,16.5,0,1,0,16.5-16.5A16.5,16.5,0,0,0,71.4,60.043Z" fill="none" stroke="#106880" stroke-miterlimit="10" stroke-width="3"/>
+        <path id="Path_437" data-name="Path 437" d="M85.491,60.043A2.408,2.408,0,1,0,87.9,57.635a2.408,2.408,0,0,0-2.408,2.408" fill="#2795b4"/>
+        <path id="Path_438" data-name="Path 438" d="M81.084,57.427l6.065,3.09a.421.421,0,0,0,.567-.184l.2-.393a.42.42,0,0,0-.184-.566l-6.065-3.091a.423.423,0,0,0-.567.184l-.2.394a.421.421,0,0,0,.184.566" fill="#2795b4"/>
+        <path id="Path_439" data-name="Path 439" d="M93.23,52.628l-5.61,6.506a.421.421,0,0,0,.044.594l.334.288a.421.421,0,0,0,.594-.043l5.61-6.507a.421.421,0,0,0-.044-.594l-.334-.288a.421.421,0,0,0-.594.044" fill="#2795b4"/>
+        <path id="Path_440" data-name="Path 440" d="M9.013,16.243h15.58a1.35,1.35,0,1,0,0-2.7H9.013a1.35,1.35,0,0,0,0,2.7" fill="#106880"/>
+        <path id="Path_441" data-name="Path 441" d="M62.274,44.773h8.471a1.35,1.35,0,1,0,0-2.7H62.274a1.35,1.35,0,1,0,0,2.7" fill="#106880"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+<svg id="Group_146" data-name="Group 146" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="111" height="103.133" viewBox="0 0 111 103.133">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_152" data-name="Rectangle 152" width="111" height="103.133" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <rect id="Rectangle_145" data-name="Rectangle 145" width="27.48" height="118.373" transform="translate(7.867 19.431) rotate(-45)" fill="#2795b4"/>
+  <rect id="Rectangle_146" data-name="Rectangle 146" width="107.766" height="20.732" transform="translate(5.126 84.111) rotate(-45)" fill="#106880"/>
+  <g id="Group_145" data-name="Group 145">
+    <g id="Group_144" data-name="Group 144" clip-path="url(#clip-path)">
+      <path id="Path_426" data-name="Path 426" d="M6.451,101.969l13.313-3.177L5.1,84.132,1.381,96.9l5.07,5.07" fill="#70cce5"/>
+      <rect id="Rectangle_147" data-name="Rectangle 147" width="9.205" height="20.732" transform="translate(76.852 12.384) rotate(-45)" fill="#70cce5"/>
+      <path id="Path_427" data-name="Path 427" d="M97.933,20.623l1.028-1.028a10,10,0,0,0,0-14.142l-.518-.517a10,10,0,0,0-14.142,0L83.273,5.963Z" fill="#2795b4"/>
+      <path id="Path_428" data-name="Path 428" d="M1.187,103.1l5.232-1.115L1.357,96.918Q.694,99.4.032,101.885a1,1,0,0,0,1.155,1.21" fill="#2795b4"/>
+      <rect id="Rectangle_148" data-name="Rectangle 148" width="13.748" height="3.271" transform="matrix(0.707, -0.707, 0.707, 0.707, 80.631, 72.82)" fill="#106880"/>
+      <rect id="Rectangle_149" data-name="Rectangle 149" width="9.172" height="3.271" transform="matrix(0.707, -0.707, 0.707, 0.707, 73.476, 59.194)" fill="#106880"/>
+      <rect id="Rectangle_150" data-name="Rectangle 150" width="9.172" height="3.271" transform="matrix(0.707, -0.707, 0.707, 0.707, 44.703, 30.421)" fill="#106880"/>
+      <rect id="Rectangle_151" data-name="Rectangle 151" width="9.172" height="3.271" transform="matrix(0.707, -0.707, 0.707, 0.707, 37.368, 23.086)" fill="#106880"/>
+    </g>
+  </g>
+</svg>
