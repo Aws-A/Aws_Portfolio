@@ -88,7 +88,7 @@ a{
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {background-color: #F9F9F9;}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
@@ -197,7 +197,6 @@ button:hover {
 
 #enviroTx {
   grid-area: enviroTx;
-  background-image: url("../images/enviroTx.png");
 }
 #enviroPic {
   grid-area: enviroPic;
@@ -211,7 +210,6 @@ button:hover {
 
 #gardengateTx {
   grid-area: gardengateTx;
-  background-image: url("../images/gardengateTx.png");
 }
 
 #gardengatePic {
@@ -221,7 +219,6 @@ button:hover {
 
 #travelzTx {
   grid-area: travelzTx;
-  background-image: url("../images/travelzTx.png");
 }
 
 #travelzPic {
@@ -235,7 +232,7 @@ button:hover {
   margin: 5px;
   cursor: pointer;
   display: grid;
-  align-content: end;
+  align-content: center;
 }
 
 
@@ -281,6 +278,23 @@ h5 a{
 
 h6 a{
      color: #0071a1;
+}
+
+.homeTxt h1{
+    font-size: 30px;
+    color: #4C4C4C;
+}
+
+.homeTxt p{
+    font-size: 17px;
+    margin-left: 10%;
+    margin-top: -2%;
+    margin-bottom: -2%;
+}
+
+.homeTxt ul{
+    font-size: 17px;
+    margin-left: 7%;
 }
 
 .Projects h3 {
