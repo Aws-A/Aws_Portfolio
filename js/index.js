@@ -13,14 +13,11 @@ function changePhoto3() {
 function showProject() {
   console.log(document.getElementById('mockup').style.backgroundImage);
   if (document.getElementById('mockup').style.backgroundImage === 'url("./images/enviroHP.png")') {
-    console.log("Yes! Enviro!");
     window.location.href = "enviro.html";
   } else if (document.getElementById('mockup').style.backgroundImage === 'url("./images/gardengateHP.png")') {
-    console.log("Yes! gardengate!");
     window.location.href = "gardengate.html";
   } else if (document.getElementById('mockup').style.backgroundImage === 'url("./images/travelzHP.png")') {
-    console.log("Yes! TravelZ!");
-    window.location.href = "travelz.html";
+    window.location.href = "Travelz.html";
   }
 }
 

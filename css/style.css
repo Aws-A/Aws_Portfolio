@@ -280,7 +280,7 @@ h6 a{
      color: #0071a1;
 }
 
-.homeTxt h1{
+.homeTxt h3{
     font-size: 30px;
     color: #4C4C4C;
 }
@@ -288,11 +288,9 @@ h6 a{
 .homeTxt p{
     font-size: 17px;
     margin-left: 10%;
-    margin-top: -2%;
-    margin-bottom: -2%;
 }
 
-.homeTxt ul{
+.homeTxt ol{
     font-size: 17px;
     margin-left: 7%;
 }
@@ -563,7 +561,9 @@ h6 a{
     }
 
     #categoryGrid {
-        grid-template-rows: 200px 200px 200px 200px 200px 200px 700px;
+        font-size: 15px;
+        margin-top: 15%;
+        grid-template-rows: 250px 250px 250px 250px 250px 250px 700px;
         grid-template-columns: 1fr;
         grid-template-areas:
         "enviroTx"
