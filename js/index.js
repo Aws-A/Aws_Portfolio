@@ -17,7 +17,7 @@ function showProject() {
   } else if (document.getElementById('mockup').style.backgroundImage === 'url("./images/gardengateHP.png")') {
     window.location.href = "gardengate.html";
   } else if (document.getElementById('mockup').style.backgroundImage === 'url("./images/travelzHP.png")') {
-    window.location.href = "Travelz.html";
+    window.location.href = "TravelZ.html";
   }
 }
 
