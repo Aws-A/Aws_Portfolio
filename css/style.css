@@ -128,9 +128,9 @@ button {
 
 
 button:hover {
-    color: #00AF00;
-    border-color: #00AF00;
-
+    color: #FFFFFF;
+    background-color: #00AF00;
+    border-color: none;
 }
 
 
