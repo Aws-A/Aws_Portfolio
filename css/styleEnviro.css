@@ -145,10 +145,6 @@ a{
             padding: 10% 3% 3% 7%;
 }
 
-.divUserFlow img {
-    width: 100%;
-}
-
 
 .title {
             color: #4C4C4C;
@@ -172,6 +168,22 @@ p {
 }
 
 
+.divPersona {
+            justify-content: center;
+            margin-top: 0;         
+}
+
+.cardPersona {
+            justify-content: center;
+            display: flex;
+            padding: 3%;
+            margin-left: 0;
+}
+
+.divPersona img {
+    width: 100%;
+}
+
 .divUserFlow {
             justify-content: center;
             margin-top: 0;         
@@ -182,6 +194,10 @@ p {
           display: flex;
           padding: 3%;
           margin-left: 0;
+}
+
+.divUserFlow img {
+    width: 100%;
 }
 
 #categoryGrid {
