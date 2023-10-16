@@ -115,7 +115,7 @@ a{
                 margin-left: 0%;    
 }
 
-#travelzLg {
+.travelzLg {
     width: 33%;
     margin-left: 12%;
 }
@@ -446,7 +446,9 @@ h5 {
             padding: 6% 2x 6% 2%;
         }
 
-
+    .divPersona{
+            margin-left: 7%;
+    }
     .divUserFlow {
             margin-left: 7%;
     }
@@ -528,7 +530,10 @@ nav a {
     .title {
         margin-left: -2%;
     }
-
+    .cardPersona {
+        padding: 0px;
+        margin-right: -3%;
+    }
     .cardUserFlow {
         padding: 0px;
         margin-right: -3%;
@@ -577,10 +582,17 @@ nav a {
             margin-left: 10%;
     }
 
-    .divUserFlow {
+    .divPersona{
         margin-right: -100%;
     }
 
+    .divUserFlow {
+        margin-right: -100%;
+    }
+    .divPersona img{
+        width: 138%;
+        margin-left: 5%;
+    }
      .divUserFlow img{
         width: 138%;
         margin-left: 5%;
@@ -617,8 +629,11 @@ nav a {
     }
 }
 
-@media (min-width: 649px) and (max-width: 770px) { 
+@media (min-width: 649px) and (max-width: 770px) {
 
+   .divPersona {
+        margin-right: -50%;
+    }
     .divUserFlow {
         margin-right: -50%;
     }
@@ -636,11 +651,13 @@ nav a {
     .card p {
         width: 450px;
     }
+    .divPersona img{
+        margin-left: 5%;
+    }
 
     .divUserFlow img{
         margin-left: 5%;
     }
-
 }
 
 @media (min-width: 359px) and (max-width: 389px) {
@@ -649,6 +666,9 @@ nav a {
         }
         .cardUserFlow {
             margin-right: 0%;
+        }
+        .divPersona img {
+            width: 80%;
         }
         .divUserFlow img {
             width: 80%;
@@ -762,6 +782,11 @@ nav a {
     .divResearch {
         width: 90%;
     }
+
+    .divPersona img {
+        width: 90%;
+    }
+
     .divUserFlow img {
         width: 90%;
     }
@@ -787,6 +812,12 @@ nav a {
         .title {
             margin-left: 27%;
         }
+
+        .divPersona img {
+            width: 200%;
+            margin-right: -27%;
+        }
+
         .divUserFlow img {
             width: 200%;
             margin-right: -27%;
