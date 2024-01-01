@@ -10,8 +10,9 @@
             <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
             <script type="text/javascript" src="js/index.js"></script>
     </head>
-    <body>
+    <body onload="homepageHeroBackgroung()">
        <section id="allTop">
+          <div class="filter">
             <header class="navigation">
                 <div class="logo">
                     <img src="images/LogoN.svg" height="100%">
@@ -34,16 +35,20 @@
                 <div class="heroText"> 
                     <h1> Aws Al-Raheem </h1>
                     <hr class="line">
-                    <h3> Product designer and web developer: <br>
-                         I work on research, ideation, prototypes, <br>
-                         design thinking, and development. 
+
+   
+                    <h3> I fuse design thinking, research, and web <br>
+                         development to craft innovative user-centered<br>
+                         solutions through prototypes.
                     </h3>
                     <br>
                 <button onclick="window.location.href='https://drive.google.com/file/d/1Nj_9yGeqea9aB5uDcObH4SBN4wicrXsr/view?usp=sharing';">  Download My Resume </button>
-                </div>
-                <img src="images/mainHero.png" class="mainHero">
             </section>
-    </section>
+          </div>
+          <div class="underFilter">
+            <h2 id="underHeroText">  </h2>
+          </div>
+       </section>
 
         <section id="categoryGrid">
             <div id="enviroTx" class="categoryGridArea homeTxt">
@@ -81,6 +86,7 @@
             </div>
             <div id="travelzPic" class="categoryGridArea cirPic" onclick="changePhoto3()">
             </div>
+          </div>
         </section>
 
 <!-- Footer -->

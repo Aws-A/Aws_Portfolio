@@ -1,3 +1,19 @@
+// Set the initial background image
+  function homepageHeroBackgroung() {
+    let allTop =  document.getElementById('allTop');
+    let underHeroText = document.getElementById('underHeroText');
+    allTop.style.backgroundImage = "url('./images/heroBackground2.jpg')";
+    underHeroText.innerHTML = 'Writing & Sketching<br>Ideas to Products';
+    underHeroText.style.color = "#000000";
+    underHeroText.style.textShadow = "2px 2px 4px #FFFFFF";
+// After a delay of 3000 milliseconds (3 seconds), change the background image
+    setTimeout(function () { allTop.style.backgroundImage = 'url("./images/heroBackground.jpg")';
+    underHeroText.innerHTML = "Continuous Ideation<br>towards Innovation";
+    underHeroText.style.color = "#FFFFFF";
+    underHeroText.style.textShadow = "2px 2px 4px #000000";
+    }, 5000);
+  }
+
 function changePhoto1() {
   document.getElementById('mockup').style.backgroundImage = "url('./images/enviroHP.png')";
 }
@@ -90,6 +106,5 @@ function switchTo3() {
     wireframeTZ5.style.backgroundImage = "url('./images/travelzW5.png')";
     document.getElementById('travelzTo').textContent = "Wireframes (Click to switch to prototypes)";
 }
-
 
 }

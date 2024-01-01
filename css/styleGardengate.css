@@ -17,11 +17,15 @@ body a:click{
 
 
 #allTop {
-            background-color: #F9F9F9;
             background-size: 1440px;
             background-repeat: no-repeat;
             background-position-x: center;
             margin-top: -50px;
+}
+
+#allHero {
+            background-color: #F9F9F9;
+            clip-path: polygon(0% 0%, 100% 0%, 100% 60%, 0% 100%);
 }
 
 
@@ -100,7 +104,8 @@ a{
           display: flex;
           height: 400px;
           padding: 25px;
-          justify-content: space-around; 
+          justify-content: left;
+          margin-top: -36px;
           margin-left: 2%;
 }
 
@@ -108,16 +113,24 @@ a{
     margin-top: 3%;   
 }
 
+.underHero {
+            display: flex;
+            justify-content: right;
+            margin-top: -28%;
+            margin-right: 5%;
+}
+
 .gardengateHero{
-                width: 60%;
-                height: 50%;
+                width: 523px;
+                height: 350px;
                 margin-top: 7%;
                 margin-left: 0%;
+                z-index: 1;
 }
 
 .gardengateLg {
-    width: 33%;
-    margin-left: 12%;
+    width: 22%;
+    margin-left: 6%;
 }
 
 .sec {
@@ -396,6 +409,9 @@ h5 {
 }
 
 @media (min-width: 500px) and (max-width: 1025px){
+            .gardengateLg {
+                width: 33%;
+            }
             #allTop{
                 width: 1100px;
             }
@@ -429,7 +445,7 @@ h5 {
     .gardengateHero {
         width: 45%;
         height: 27%;
-        margin-top: 15%;
+        margin-top: -7%;
         margin-left: -7%;
     }
 
@@ -462,14 +478,21 @@ h5 {
 @media (min-width: 800px) and (max-width: 860px) {
 
 
-nav {
-    font-size: 22px;
-    margin-left: -1%;
-}
+    nav {
+        font-size: 22px;
+        margin-left: -1%;
+    }
 
-nav a {
-    padding-left: 30px;
-}
+    nav a {
+        padding-left: 30px;
+    }
+
+    .cardL {
+        margin-left: -4%;
+    }
+    .cardR {
+        margin-left: -4%;
+    }
 
 }
 
@@ -487,6 +510,16 @@ nav a {
         .Soc {
             margin-top: 3%;
         }
+}
+
+@media (min-width: 910px) and (max-width: 916px) {
+
+    .cardL {
+        margin-left: -2.5%;
+    }
+    .cardR {
+        margin-left: -2.5%;
+    }
 }
 
 @media (min-width: 200px) and (max-width: 799px) { 
@@ -513,7 +546,7 @@ nav a {
 
     .card p{    font-size: 12px;
             width: 250px;
-            height: 100px;
+            height: 120px;
             padding: 6% 2x 6% 2%;
             margin-left: -7%;
     }
@@ -521,6 +554,10 @@ nav a {
     .divResearch {
         display: flex;
         flex-direction: column;
+    }
+
+    .divResearch h5 {
+        white-space: nowrap;
     }
 
     .title {
@@ -550,38 +587,6 @@ nav a {
    }
 }
 
-@media (min-width: 279px) and (max-width: 281px) { 
-        .sec {
-            margin-left: 30%;
-        }
-        .divResearch h5 {
-            white-space: nowrap;
-        }
-        .card {
-            width: 240px;
-        }
-        .card p{
-            width: 290px;
-            margin-left: -20px;
-        }
-        .title {
-            margin-left: 27%;
-        }
-        .divUserFlow img {
-            width: 200%;
-            margin-right: -27%;
-        }
-        #gardengateTo {
-            margin-right: -20%;
-        }
-        #categoryGrid {
-            margin-left: 27%;
-            grid-template-rows: 150px 150x 150px 150px 150px;
-        }
-        .categoryGridArea {
-            width: 80%;
-        }
-}
 
 @media (min-width: 500px) and (max-width: 799px) {
     body {
@@ -648,7 +653,35 @@ nav a {
     }
 }
 
-@media (min-width: 649px) and (max-width: 770px) { 
+@media (min-width: 649px) and (max-width: 770px) {
+    .gardengateLg {
+        margin-left: 8%;
+    }
+    .heroText {
+        text-align: left;
+        margin-top: 4%;
+        margin-left: 9%;
+        font-size: 15px;
+    }
+
+    .gardengateHero {
+        width: 35%;
+        height: 23.33%;
+        margin-top: -2%;
+    }
+
+    .cardL h5{
+        margin-left: 50%;
+    }
+
+    .cardR h5{
+        margin-left: 66%;
+    }
+
+    .divPersona img{
+        width: 250%;
+        margin-left: 50%;
+    }
 
     .divUserFlow {
         margin-right: -50%;
@@ -698,22 +731,33 @@ nav a {
             margin-left: 30%;
             width: 70%;
         }
+        .cardUserFLow {
+            margin-right: 0px;
+        }
         .heroText {
             margin-left: 17%;
         }
         .gardengateHero {
-            width: 100%;
-            height: 20%;
-            margin-top: 15%;
+            width: 80%;
+            height: 12%;
+            margin-top: 3%;
+            margin-right: 7%;
         }
 }
 
 
 @media (min-width: 740px) and (max-width: 770px) {
+    .divPersona img{
+        width: 200%;
+        margin-left: 40%;
+    }
     .divUserFlow img {
             width: 120%;
             margin-left: -20%;
         }
+    .cardUserFlow {
+        margin-right: 0px;
+    }
     .sec {
         margin-left: 33%;
     }
@@ -730,19 +774,19 @@ nav a {
     }
 }
 
-@media (min-width: 650px) and (max-width: 660px) { 
-     #categoryGrid {
-        margin-left: 40%;
-     }
-}
+@media (min-width: 650px) and (max-width: 660px) {
+    .cardL h5{
+        margin-left: 66%;
+    }
 
-@media (min-width: 719px) and (max-width: 721px) { 
-    .card {
-        width: 120%;
+    .cardR h5{
+        margin-left: 88%;
+    }
+    .divPersona img{
+        margin-left: 40%;
     }
      #categoryGrid {
-        margin-right: -7%;
-        margin-left: 33%;
+        margin-left: 40%;
      }
 }
 
@@ -790,4 +834,82 @@ nav a {
     .divUserFlow img {
         width: 90%;
     }
+}
+
+@media (min-width: 500px) and (max-width: 540px) {
+            #allHero {
+                clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
+            }
+          .gardengateHero {
+                margin-top: 22%;
+                margin-right: 15%;
+                width: 60%;
+                height: 40%;
+            }
+            .divPersona img {
+                margin-left: 100%;
+                width: 220%;
+            }
+}
+
+@media (min-width: 279px) and (max-width: 281px) { 
+        .sec {
+            margin-left: 30%;
+        }
+        .divResearch {
+            margin-left: 0%;
+        }
+        .divResearch h5 {
+            white-space: nowrap;
+        }
+        .card {
+            width: 240px;
+        }
+        .card p{
+            width: 290px;
+            margin-left: -20px;
+        }
+        .title {
+            margin-left: 27%;
+        }
+        .divPersona img{
+            margin-left: 25%;
+            width: 200%;
+        }
+        .divUserFlow img {
+            width: 200%;
+            margin-right: -27%;
+        }
+        #gardengateTo {
+            margin-right: -20%;
+        }
+        #categoryGrid {
+            margin-left: 27%;
+            grid-template-rows: 150px 150x 150px 150px 150px;
+        }
+        .categoryGridArea {
+            width: 80%;
+        }
+}
+
+@media (min-width: 719px) and (max-width: 721px) {
+    .cardL h5{
+        margin-left: 0px;
+    }
+    .cardR h5{
+        margin-left: 0px;
+    }
+    .card {
+        width: 120%;
+    }
+    .divPersona {
+        margin-right: 15%;
+    }
+    .divUserFlow {
+        margin-right: -25%;
+    }
+     #categoryGrid {
+        margin-right: -7%;
+        margin-left: 33%;
+     }
 }

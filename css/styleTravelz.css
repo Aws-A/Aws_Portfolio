@@ -17,11 +17,15 @@ body a:click{
 
 
 #allTop {
-            background-color: #F9F9F9;
             background-size: 1440px;
             background-repeat: no-repeat;
             background-position-x: center;
             margin-top: -50px;
+}
+
+#allHero {
+            background-color: #F9F9F9;
+            clip-path: polygon(0% 0%, 100% 0%, 100% 60%, 0% 100%);
 }
 
 
@@ -100,7 +104,8 @@ a{
           display: flex;
           height: 400px;
           padding: 25px;
-          justify-content: space-around; 
+          justify-content: left;
+          margin-top: -36px;
           margin-left: 2%;
 }
 
@@ -108,16 +113,25 @@ a{
     margin-top: 3%;   
 }
 
+.underHero {
+            display: flex;
+            position: relative;
+            justify-content: right;
+            margin-top: -28%;
+            margin-right: 5%;
+}
+
 .travelzHero{
-                width: 60%;
-                height: 50%;
+                width: 523px;
+                height: 350px;
                 margin-top: 7%;
-                margin-left: 0%;    
+                margin-left: 0%;
+                z-index: 1;    
 }
 
 .travelzLg {
-    width: 33%;
-    margin-left: 12%;
+    width: 12%;
+    margin-left: 4%;
 }
 
 .sec {
@@ -402,6 +416,9 @@ h5 {
             #allTop{
                 width: 1100px;
             }
+            .travelzLg {
+                width: 33%;
+            }
 }
 
 @media (min-width: 1182px) and (max-width: 1500px) {
@@ -432,7 +449,7 @@ h5 {
     .travelzHero {
         width: 45%;
         height: 27%;
-        margin-top: 15%;
+        margin-top: -7%;
         margin-left: -7%;
     }
 
@@ -631,6 +648,33 @@ nav a {
 }
 
 @media (min-width: 649px) and (max-width: 770px) {
+    .travelzLg {
+        margin-left: 12%;
+    }
+    .heroText {
+        text-align: left;
+        margin-top: 2%;
+        margin-left: 15%;
+        font-size: 19px;
+        width: 40%;
+    }
+
+    .travelzHero {
+        width: 45%;
+        height: 30%;
+        margin-top: -2%;
+    }
+
+    .divResearch h5 {
+        white-space: nowrap;
+    }
+    .cardL h5{
+        margin-left: 77%;
+    }
+
+    .cardR h5{
+        margin-left: 92%;
+    }
 
    .divPersona {
         margin-right: -50%;
@@ -661,32 +705,14 @@ nav a {
     }
 }
 
-@media (min-width: 359px) and (max-width: 389px) {
-        .sec {
-            margin-right: -13%;
-        }
-        .cardUserFlow {
-            margin-right: 0%;
-        }
-        .divPersona img {
-            width: 80%;
-        }
-        .divUserFlow img {
-            width: 80%;
-        }
-        #travelzTo {
-            margin-left: 4%;
-        }
-        #categoryGrid {
-            margin-left: 13%;
-            margin-right: 0%;
-        }
-}
 
 @media (min-width: 400px) and (max-width: 440px) {
         .travelzLg {
             margin-left: 30%;
             width: 70%;
+        }
+        .cardUserFLow {
+            margin-right: 0px;
         }
         .heroText {
             margin-left: 17%;
@@ -700,6 +726,10 @@ nav a {
 
 
 @media (min-width: 740px) and (max-width: 770px) {
+    .divPersona img{
+        width: 100%;
+        margin-left: -10%;
+    }
     .divUserFlow img {
             width: 120%;
             margin-left: -20%;
@@ -720,21 +750,42 @@ nav a {
     }
 }
 
-@media (min-width: 650px) and (max-width: 660px) { 
+@media (min-width: 650px) and (max-width: 660px) {
     .card {
         width: 140%;
     }
     .title {
         margin-right: -22%;
     }
+    .cardL h5{
+        margin-left: 66%;
+    }
+
+    .cardR h5{
+        margin-left: 88%;
+    }
+    .divPersona img{
+        margin-left: 40%;
+    }
     #categoryGrid {
         margin-left: 45%;
      }
 }
 
-@media (min-width: 719px) and (max-width: 721px) { 
+@media (min-width: 719px) and (max-width: 721px) {
+    .cardL h5{
+        margin-left: 0%;
+    }
+
+    .cardR h5{
+        margin-left: 0%;
+    }
+
     .card {
         width: 120%;
+    }
+    .divPersona img{
+        margin-left: -15%;
     }
      #categoryGrid {
         margin-right: -7%;
@@ -762,6 +813,13 @@ nav a {
 }
 
 @media (min-width: 200px) and (max-width: 500px) {
+    .travelzLg {
+        width: 33%;
+    }
+    .travelzHero {
+        width: 90%;
+        margin-top: -12%;
+    }
     #contact {
         padding-top: 5%;
     }
@@ -793,7 +851,32 @@ nav a {
     }
 }
 
+@media (min-width: 500px) and (max-width: 540px) {
+        #allHero {
+            clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
+        }
+        .travelzLg {
+            width: 22%
+        }
+        .heroText {
+            margin-top: -2%;
+        }
+        .travelzHero {
+            margin-top: 22%;
+            margin-right: 15%;
+            width: 60%;
+            height: 40%;
+        }
+        .divPersona img {
+            margin-left: 0%;
+            width: 180%;
+        }
+}
+
 @media (min-width: 279px) and (max-width: 281px) { 
+        .travelzHero{
+            margin-top: -2%;
+        }
         .sec {
             margin-left: 30%;
         }
@@ -832,5 +915,41 @@ nav a {
         }
         .categoryGridArea {
             width: 80%;
+        }
+}
+
+@media (min-width: 389px) and (max-width: 440px) {
+        .travelzHero {
+                margin-top: -20%;
+        }
+
+
+}
+
+@media (min-width: 359px) and (max-width: 389px) {
+        .travelzHero {
+            margin-top: 0px;
+            width: 70%;
+            height: 46.66%;
+            margin-right: 12%;
+        }
+        .sec {
+            margin-right: -13%;
+        }
+        .cardUserFlow {
+            margin-right: 0%;
+        }
+        .divPersona img {
+            width: 80%;
+        }
+        .divUserFlow img {
+            width: 80%;
+        }
+        #travelzTo {
+            margin-left: 4%;
+        }
+        #categoryGrid {
+            margin-left: 13%;
+            margin-right: 0%;
         }
 }
