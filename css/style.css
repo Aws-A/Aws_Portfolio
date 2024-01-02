@@ -633,22 +633,28 @@ h6 a{
     }
 }
 
-@media (min-width: 500px) and (max-width: 767px) {
+@media (min-width: 500px) and (max-width: 800px) {
     .hero {
         display: block;
     }
+    .hero button{
+        margin-left: 10%;
+    }
+    .line {
+         width: 50%;
+         margin: -3% 0% 5% 7%;
+    }
     .heroText {
-        margin-left: 27%;
+        margin-left: left;
+        margin-left: 2%;
+    }
+    .heroText h3{
+        font-size: 15px;
     }
     .mainHero {
                 width: 80%;
                 height: 25%;
                 margin-left: 11%;
-    }
-
-    .line {
-        width: 55%;
-        margin-left: 30;
     }
 
     #categoryGrid {
@@ -688,15 +694,15 @@ h6 a{
 @media (min-width: 650px) and (max-width: 671px) {
 
     .heroText {
-        text-align: center;
+        text-align: left;
         margin-right: 22%;
     }
     .mainHero {
-                margin-left: 12%;
+        margin-left: 12%;
     }
     .line {
         width: 50%;
-        margin-left: 32%;
+        margin-left: 9%;
     }
 
     #categoryGrid { 
