@@ -1,3 +1,5 @@
+/* Body Styles */
+
 body {
       margin: 0px;
       max-width: 100%;
@@ -15,6 +17,44 @@ body a:click{
        color: black;
 }
 
+/* General Fonts Styles */
+
+h1 {
+    font-family: Lao MN;
+    font-size: 40px;
+    font-weight: 400 !important;
+    margin-left: 60px;
+    color: Black;
+}
+
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    padding: 5px;
+    color: #24B0FF;
+}
+
+h3{
+    font-family: Lao MN;
+    font-weight: 300 !important;
+    margin-left: 60px;
+}
+
+h5 {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+p {
+   font-size: 18px;
+   margin-top: 0px;
+   justify-content: top;
+   margin-left: 60px;
+   color: #767576;
+}
+
+/* Hero Styles */
 
 #allTop {
             background-size: 1440px;
@@ -109,6 +149,11 @@ a{
           margin-left: 2%;
 }
 
+.gardengateLg {
+    width: 22%;
+    margin-left: 6%;
+}
+
 .heroText {
     margin-top: 3%;   
 }
@@ -128,10 +173,7 @@ a{
                 z-index: 1;
 }
 
-.gardengateLg {
-    width: 22%;
-    margin-left: 6%;
-}
+/* Body Styles */
 
 .sec {
            margin-top: 8%;
@@ -160,15 +202,6 @@ a{
             padding-left: 7%;
 }
 
-
-
-p {
-   font-size: 18px;
-   margin-top: 0px;
-   justify-content: top;
-   margin-left: 60px;
-   color: #767576;
-}
 
 .divResearch {
               display: flex;
@@ -252,32 +285,7 @@ p {
   align-content: end;
 }
 
-h1 {
-    font-family: Lao MN;
-    font-size: 40px;
-    font-weight: 400 !important;
-    margin-left: 60px;
-    color: Black;
-}
-
-
-h2 {
-    font-size: 40px;
-    text-align: center;
-    padding: 5px;
-    color: #24B0FF;
-}
-
-h3{
-    font-family: Lao MN;
-    font-weight: 300 !important;
-    margin-left: 60px;
-}
-
-h5 {
-    font-size: 25px;
-    font-weight: 300;
-}
+/* Footer Styles */
 
 #contact {
         background: rgb(239, 239, 239);
@@ -383,7 +391,12 @@ h5 {
             .hero{
                 width: 70%;
                 height: 50%;
-                margin-left: 15%;
+                text-align: left;
+                margin-left: -8%;
+                margin-top: -4%;
+            }
+            .gardengateLg {
+                width: 40%;
             }
             #contact {
                 width: 430px;
@@ -410,7 +423,8 @@ h5 {
 
 @media (min-width: 500px) and (max-width: 1025px){
             .gardengateLg {
-                width: 33%;
+                width: 40%;
+                margin-top: -2%;
             }
             #allTop{
                 width: 1100px;
@@ -423,104 +437,6 @@ h5 {
             }
 }
 
-@media (min-width: 800px) and (max-width: 1025px) {
-
-    #allTop {
-        width: 100%;
-    }
-    .hero {
-        margin-left: 5%;
-    }
-    .gardengateLg {
-        margin-left: 0%;
-    }
-    .heroText {
-        width: 45%;
-    }
-
-    .heroText h3 {
-        margin-left: 0%;
-    }
-
-    .gardengateHero {
-        width: 45%;
-        height: 27%;
-        margin-top: -7%;
-        margin-left: -7%;
-    }
-
-    .divResearch {
-        margin-right: 2%;
-        width: 93%;
-    }
-
-    .card p{    font-size: 14px;
-            width: 350px;
-            height: 100px;
-            padding: 6% 2x 6% 2%;
-        }
-
-
-    .divUserFlow {
-            margin-left: 7%;
-    }
-
-    #categoryGrid {
-        margin-top: -7%;
-    }
-
-    #contact {
-        margin-bottom: -3%;
-    }
-
-}
-
-@media (min-width: 800px) and (max-width: 860px) {
-
-
-    nav {
-        font-size: 22px;
-        margin-left: -1%;
-    }
-
-    nav a {
-        padding-left: 30px;
-    }
-
-    .cardL {
-        margin-left: -4%;
-    }
-    .cardR {
-        margin-left: -4%;
-    }
-
-}
-
-@media (min-width: 800px) and (max-width: 821px) {
-
-    .card p{    font-size: 12px;
-                width: 300px;
-                height: 100px;
-                padding: 6% 1x 6% 1%;
-        }
-        .Ep {
-            margin-left: 10%;
-            margin-top: 4%;
-        }
-        .Soc {
-            margin-top: 3%;
-        }
-}
-
-@media (min-width: 910px) and (max-width: 916px) {
-
-    .cardL {
-        margin-left: -2.5%;
-    }
-    .cardR {
-        margin-left: -2.5%;
-    }
-}
 
 @media (min-width: 200px) and (max-width: 799px) { 
     body {
@@ -529,10 +445,7 @@ h5 {
     .gardengateLg {
         margin-left: 22%;
     }
-    .hero  {
-        display: inline-table;
-        margin-left: -20%;
-    }
+
 
     .heroText {
         font-size: 12px;  
@@ -585,6 +498,43 @@ h5 {
         width: 50%;
         margin-left: 27%;
    }
+}
+
+@media (min-width: 359px) and (max-width: 389px) {
+        .sec {
+            margin-right: -13%;
+        }
+        .cardUserFlow {
+            margin-right: 0%;
+        }
+        .divUserFlow img {
+            width: 80%;
+        }
+        #gardengateTo {
+            margin-left: 4%;
+        }
+        #categoryGrid {
+            margin-left: 13%;
+            margin-right: 0%;
+        }
+}
+
+@media (min-width: 400px) and (max-width: 440px) {
+        .gardengateLg {
+            width: 50%;
+        }
+        .cardUserFLow {
+            margin-right: 0px;
+        }
+        .heroText {
+            margin-left: 17%;
+        }
+        .gardengateHero {
+            width: 80%;
+            height: 12%;
+            margin-top: 3%;
+            margin-right: 7%;
+        }
 }
 
 
@@ -653,9 +603,26 @@ h5 {
     }
 }
 
+@media (min-width: 650px) and (max-width: 660px) {
+    .cardL h5{
+        margin-left: 66%;
+    }
+
+    .cardR h5{
+        margin-left: 88%;
+    }
+    .divPersona img{
+        margin-left: 40%;
+    }
+     #categoryGrid {
+        margin-left: 40%;
+     }
+}
+
 @media (min-width: 649px) and (max-width: 770px) {
-    .gardengateLg {
-        margin-left: 8%;
+    .hero  {
+        display: inline-table;
+        margin-left: -20%;
     }
     .heroText {
         text-align: left;
@@ -663,11 +630,19 @@ h5 {
         margin-left: 9%;
         font-size: 15px;
     }
+    .gardengateLg {
+        width: 27%;
+        margin-left: 8%;
+    }
 
     .gardengateHero {
         width: 35%;
         height: 23.33%;
         margin-top: -2%;
+    }
+
+    .card p {
+        padding: 12% 5% 0% 5%;
     }
 
     .cardL h5{
@@ -693,56 +668,6 @@ h5 {
             grid-template-rows: 650px 650px 650px 650px 650px;
     }
 
-}
-
-@media (min-width: 1179px) and (max-width: 1181px) {
-
-    .card p {
-        width: 450px;
-    }
-
-    .divUserFlow img{
-        margin-left: 5%;
-    }
-
-}
-
-@media (min-width: 359px) and (max-width: 389px) {
-        .sec {
-            margin-right: -13%;
-        }
-        .cardUserFlow {
-            margin-right: 0%;
-        }
-        .divUserFlow img {
-            width: 80%;
-        }
-        #gardengateTo {
-            margin-left: 4%;
-        }
-        #categoryGrid {
-            margin-left: 13%;
-            margin-right: 0%;
-        }
-}
-
-@media (min-width: 400px) and (max-width: 440px) {
-        .gardengateLg {
-            margin-left: 30%;
-            width: 70%;
-        }
-        .cardUserFLow {
-            margin-right: 0px;
-        }
-        .heroText {
-            margin-left: 17%;
-        }
-        .gardengateHero {
-            width: 80%;
-            height: 12%;
-            margin-top: 3%;
-            margin-right: 7%;
-        }
 }
 
 
@@ -774,40 +699,139 @@ h5 {
     }
 }
 
-@media (min-width: 650px) and (max-width: 660px) {
-    .cardL h5{
-        margin-left: 66%;
+@media (min-width: 800px) and (max-width: 1025px) {
+
+    #allTop {
+        width: 100%;
+    }
+    .hero {
+        margin-left: 5%;
+    }
+    .gardengateLg {
+        margin-left: 0%;
+    }
+    .heroText {
+        width: 45%;
     }
 
-    .cardR h5{
-        margin-left: 88%;
+    .heroText h3 {
+        margin-left: 0%;
     }
-    .divPersona img{
-        margin-left: 40%;
-    }
-     #categoryGrid {
-        margin-left: 40%;
-     }
-}
 
-@media (min-width: 539px) and (max-width: 541px) {
-    .sec {
-        margin-left: 50%;
+    .gardengateHero {
+        width: 45%;
+        height: 27%;
+        margin-top: -7%;
+        margin-left: -7%;
     }
-    .card {
-        width: 200%;
+
+    .divResearch {
+        margin-right: 2%;
+        width: 93%;
     }
-    .title {
-        margin-left: 75%;
+
+    .card p{    font-size: 14px;
+            width: 362px;
+            height: 100px;
+            padding: 6% 2x 6% 2%;
+        }
+
+
+    .divUserFlow {
+            margin-left: 7%;
     }
-    #gardengateTo {
-        margin-left: -130%;
-    }
+
     #categoryGrid {
-        margin-right: -40%;
-        margin-left: 50%;
-     }
+        margin-top: -7%;
+    }
+
+    #contact {
+        margin-bottom: -3%;
+    }
+
 }
+
+@media (min-width: 800px) and (max-width: 821px) {
+
+    .card p{    font-size: 12px;
+                width: 310px;
+                height: 100px;
+                padding: 6% 1x 6% 1%;
+        }
+        .Ep {
+            margin-left: 10%;
+            margin-top: 4%;
+        }
+        .Soc {
+            margin-top: 3%;
+        }
+}
+
+@media (min-width: 800px) and (max-width: 860px) {
+
+
+    nav {
+        font-size: 22px;
+        margin-left: -1%;
+    }
+
+    nav a {
+        padding-left: 30px;
+    }
+
+    .cardL {
+        margin-left: -4%;
+    }
+    .cardR {
+        margin-left: -4%;
+    }
+
+}
+
+@media (min-width: 910px) and (max-width: 916px) {
+
+    .cardL {
+        margin-left: -2.5%;
+    }
+    .cardR {
+        margin-left: -2.5%;
+    }
+}
+
+
+
+@media (min-width: 1179px) and (max-width: 1181px) {
+
+    .gardengateHero {
+        width: 40%;
+        height: 25%;
+    }
+
+    .divResearch {
+        width: 90%;
+    }
+
+    .card p {
+        width: 466px;
+    }
+
+    .divUserFlow img{
+        margin-left: 5%;
+        width: 90%;
+    }
+
+}
+
+@media (min-width: 1182px) and (max-width: 1400px) {
+
+    .card p{
+        width: 94%;
+    }
+    .cardR {
+        margin-right: 3%;
+    }
+}
+
 
 @media (min-width: 200px) and (max-width: 500px) {
     #contact {
@@ -815,41 +839,16 @@ h5 {
     }
 
     .divResearch {
-        margin-left: 15%;
+        margin-left: 12%;
     }
     .card {
             width: 240px;
         }
     .card p{
-            width: 290px;
+            width: 309px;
             margin-left: -20px;
+            padding: 12% 5% 0% 5%;
         }
-
-}
-
-@media (min-width: 1179px) and (max-width: 1185px) {
-    .divResearch {
-        width: 90%;
-    }
-    .divUserFlow img {
-        width: 90%;
-    }
-}
-
-@media (min-width: 500px) and (max-width: 540px) {
-            #allHero {
-                clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
-            }
-          .gardengateHero {
-                margin-top: 22%;
-                margin-right: 15%;
-                width: 60%;
-                height: 40%;
-            }
-            .divPersona img {
-                margin-left: 100%;
-                width: 220%;
-            }
 }
 
 @media (min-width: 279px) and (max-width: 281px) { 
@@ -866,8 +865,8 @@ h5 {
             width: 240px;
         }
         .card p{
-            width: 290px;
-            margin-left: -20px;
+            width: 309px;
+            margin-left: -45px;
         }
         .title {
             margin-left: 27%;
@@ -891,6 +890,50 @@ h5 {
             width: 80%;
         }
 }
+
+@media (min-width: 500px) and (max-width: 540px) {
+        #allHero {
+            clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
+        }
+        .hero {
+            text-align: left;
+            margin-left: -12%;
+        }
+        .gardengateLg {
+            width: 33%;
+            margin-left: 7%;
+        }
+        .gardengateHero {
+                margin-top: 25%;
+                margin-right: 15%;
+                width: 60%;
+                height: 40%;
+        }
+        .divPersona img {
+            margin-left: 100%;
+            width: 220%;
+        }
+}
+
+
+@media (min-width: 539px) and (max-width: 541px) {
+    .sec {
+        margin-left: 50%;
+    }
+
+    .title {
+        margin-left: 75%;
+    }
+    #gardengateTo {
+        margin-left: -130%;
+    }
+    #categoryGrid {
+        margin-right: -40%;
+        margin-left: 50%;
+     }
+}
+
+
 
 @media (min-width: 719px) and (max-width: 721px) {
     .cardL h5{

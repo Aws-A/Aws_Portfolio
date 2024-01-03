@@ -1,3 +1,5 @@
+/* Body Styles */
+
 body {
       margin: 0px;
       max-width: 100%;
@@ -13,6 +15,43 @@ body a:hover{
 
 body a:click{
        color: black;
+}
+
+/* General Fonts Styles */
+
+h1 {
+    font-family: Lao MN;
+    font-size: 40px;
+    font-weight: 400 !important;
+    margin-left: 60px;
+    color: Black;
+}
+
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    padding: 5px;
+    color: #24B0FF;
+}
+
+h3{
+    font-family: Lao MN;
+    font-weight: 300 !important;
+    margin-left: 60px;
+}
+
+h5 {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+p {
+   font-size: 18px;
+   margin-top: 0px;
+   justify-content: top;
+   margin-left: 60px;
+   color: #767576;
 }
 
 
@@ -164,15 +203,6 @@ a{
 }
 
 
-
-p {
-   font-size: 18px;
-   margin-top: 0px;
-   justify-content: top;
-   margin-left: 60px;
-   color: #767576;
-}
-
 .divResearch {
               display: flex;
               justify-content: center;
@@ -253,33 +283,6 @@ p {
   cursor: pointer;
   display: grid;
   align-content: end;
-}
-
-h1 {
-    font-family: Lao MN;
-    font-size: 40px;
-    font-weight: 400 !important;
-    margin-left: 60px;
-    color: Black;
-}
-
-
-h2 {
-    font-size: 40px;
-    text-align: center;
-    padding: 5px;
-    color: #24B0FF;
-}
-
-h3{
-    font-family: Lao MN;
-    font-weight: 300 !important;
-    margin-left: 60px;
-}
-
-h5 {
-    font-size: 25px;
-    font-weight: 300;
 }
 
 #contact {
@@ -387,7 +390,12 @@ h5 {
             .hero{
                 width: 70%;
                 height: 50%;
-                margin-left: 15%;
+                margin-top: -2%;
+                margin-left: -15%;
+                text-align: left;
+            }
+            .travelzLg {
+                width: 33%;
             }
             #contact {
                 width: 430px;
@@ -518,10 +526,6 @@ nav a {
     .travelzLg {
         margin-left: 22%;
     }
-    .hero  {
-        display: inline-table;
-        margin-left: -20%;
-    }
 
     .heroText {
         font-size: 12px;  
@@ -584,6 +588,10 @@ nav a {
     }
     .travelzLg {
         margin-left: 15%;
+    }
+    .hero  {
+        display: inline-table;
+        margin-left: -20%;
     }
     .heroText{
         margin-left: 12%;
@@ -668,13 +676,7 @@ nav a {
     .divResearch h5 {
         white-space: nowrap;
     }
-    .cardL h5{
-        margin-left: 77%;
-    }
 
-    .cardR h5{
-        margin-left: 92%;
-    }
 
    .divPersona {
         margin-right: -50%;
@@ -708,8 +710,7 @@ nav a {
 
 @media (min-width: 400px) and (max-width: 440px) {
         .travelzLg {
-            margin-left: 30%;
-            width: 70%;
+            width: 80%;
         }
         .cardUserFLow {
             margin-right: 0px;
@@ -757,29 +758,13 @@ nav a {
     .title {
         margin-right: -22%;
     }
-    .cardL h5{
-        margin-left: 66%;
-    }
 
-    .cardR h5{
-        margin-left: 88%;
-    }
-    .divPersona img{
-        margin-left: 40%;
-    }
     #categoryGrid {
         margin-left: 45%;
      }
 }
 
 @media (min-width: 719px) and (max-width: 721px) {
-    .cardL h5{
-        margin-left: 0%;
-    }
-
-    .cardR h5{
-        margin-left: 0%;
-    }
 
     .card {
         width: 120%;
@@ -814,7 +799,7 @@ nav a {
 
 @media (min-width: 200px) and (max-width: 500px) {
     .travelzLg {
-        width: 33%;
+        width: 44%;
     }
     .travelzHero {
         width: 90%;
@@ -831,8 +816,9 @@ nav a {
             width: 240px;
         }
     .card p{
-            width: 290px;
+            width: 295px;
             margin-left: -20px;
+            padding: 12% 5% 0% 5%;
         }
 
 }
